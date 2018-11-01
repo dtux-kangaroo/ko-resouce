@@ -1,3 +1,25 @@
 {
-    
+  "name": "kangaroo",
+  "version": "1.0.0",
+  "description": "resource",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtux-kangaroo/resource.git"
+  },
+  "keywords": [
+    "kangaroo",
+    "react",
+    "resource",
+    "vue"
+  ],
+  "author": "dtux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtux-kangaroo/resource/issues"
+  },
+  "homepage": "https://github.com/dtux-kangaroo/resource#readme"
 }
