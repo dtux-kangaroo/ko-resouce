@@ -4,7 +4,8 @@
   "description": "this is demo about webpack4",
   "main": "index.js",
   "scripts": {
-    "start": "ko dev"
+    "start": "ko dev",
+    "move":"ko move"
   },
   "keywords": [
     "react",
