@@ -2,7 +2,7 @@
  * @project        dtux
  * @name           dtux
  * @author         dtux
- * @build          Thu, Dec 20, 2018 5:01 PM ET
+ * @build          Thu, Dec 20, 2018 5:37 PM ET
  * @release        v1.0.0
  * @copyright      Copyright (c) 2018 袋鼠云
  *
@@ -8886,7 +8886,7 @@ function (_Component) {
 
     _this = _possibleConstructorReturn(this, _getPrototypeOf(MarkDown).call(this, props));
     _this.state = {
-      input: "<h1>\u6807\u9898</h1>"
+      input: "<h1>\u6807\u9898-hello</h1>"
     };
     return _this;
   }
