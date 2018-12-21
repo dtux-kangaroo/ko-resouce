@@ -1,6 +1,6 @@
 {
   "name": "@ko/block-about",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "适用于产品的简介",
   "author": "dtux",
   "main": "index.js",

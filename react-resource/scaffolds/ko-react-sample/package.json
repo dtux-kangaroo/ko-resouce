@@ -1,6 +1,6 @@
 {
   "name": "@ko/pc-react-sample",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "this is demo about webpack4",
   "main": "index.js",
   "scripts": {
