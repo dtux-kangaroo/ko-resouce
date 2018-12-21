@@ -1,33 +1,33 @@
 {
-    "name": "@ko/block-markdown",
-    "version": "1.0.0",
-    "description": "适用于 Homepage 的 Banner 简介",
-    "author": "",
-    "files": [
-      "src/",
-      "lib/"
+  "name": "@ko/block-markdown",
+  "version": "1.0.1",
+  "description": "适用于 Homepage 的 Banner 简介",
+  "author": "",
+  "files": [
+    "src/",
+    "lib/"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ko",
+    "react",
+    "block"
+  ],
+  "dependencies": {
+    "prop-types": "^15.5.8",
+    "react": "^16.2.0",
+    "react-markdown": "^4.0.3"
+  },
+  "blockConfig": {
+    "name": "markdown",
+    "title": "markdown 简介",
+    "categories": [
+      "文本编辑"
     ],
-    "publishConfig": {
-      "access": "public",
-      "registry": "http://registry.npmjs.com"
-    },
-    "license": "MIT",
-    "keywords": [
-      "ko",
-      "react",
-      "block"
-    ],
-    "dependencies": {
-      "prop-types": "^15.5.8",
-      "react": "^16.2.0",
-      "react-markdown":"^4.0.3"
-    },
-    "blockConfig": {
-      "name": "markdown",
-      "title": "markdown 简介",
-      "categories": [
-        "文本编辑"
-      ],
-      "screenshot": "http://"
-    }
+    "screenshot": "http://"
   }
+}
