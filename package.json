@@ -13,6 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/dtux-kangaroo/resource.git"
   },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.com",
+    "access": "public"
+  },
   "keywords": [
     "kangaroo",
     "react",
