@@ -1,22 +1,23 @@
 import React, { Component } from 'react';
 import ReactMarkdown from 'react-markdown';
+const test=require('./test.md')
 
 export default class MarkDown extends Component {
-    static displayName = 'MarkDown';
+    //static displayName = 'MarkDown';
   
     constructor(props) {
       super(props);
       this.state = {
-        input: `<h1>标题</h1>`,
+        input: `<h1>标题-hello</h1>`,
       };
     }
   
     componentDidMount() {
-      this.enquireScreenRegister();
+      //this.enquireScreenRegister();
     }
     render(){
         return (
-            <ReactMarkdown source={this.state.input} />
+            <ReactMarkdown source={test} />
         )
     }
 }

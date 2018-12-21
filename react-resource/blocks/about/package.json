@@ -1,0 +1,33 @@
+{
+    "name": "@ko/block-about",
+    "version": "1.0.1",
+    "description": "适用于产品的简介",
+    "author": "dtux",
+    "main":"index.js",
+    "license": "ISC",
+    "publishConfig": {
+      "access": "public",
+      "registry": "http://registry.npmjs.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "keywords": [
+      "ko",
+      "react",
+      "block"
+    ],
+    "dependencies": {
+      "react": "^16.2.0"
+    },
+    "blockConfig": {
+      "name": "about",
+      "title": "关于",
+      "categories": [
+        "信息展示"
+      ],
+      "screenshot": "https://img.alicdn.com/tfs/TB1rINTukZmBKNjSZPiXXXFNVXa-2722-1092.png"
+    }
+  }
+  

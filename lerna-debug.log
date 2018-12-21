@@ -1,0 +1,11 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.7.1',
+0 silly argv   '$0': '/Users/charlesyang/space/workspace/team/kangaroo-resource/node_modules/.bin/lerna' }
+1 notice cli v3.7.1
+2 verbose rootPath /Users/charlesyang/space/workspace/team/kangaroo-resource
+3 info versioning independent
+4 error JSONError: Unexpected end of JSON input while parsing near '' in react-resource/projects/boe/package.json
+4 error     at module.exports (/Users/charlesyang/space/workspace/team/kangaroo-resource/node_modules/parse-json/index.js:26:19)
+4 error     at parse (/Users/charlesyang/space/workspace/team/kangaroo-resource/node_modules/load-json-file/index.js:8:29)
+4 error     at pify.then.data (/Users/charlesyang/space/workspace/team/kangaroo-resource/node_modules/load-json-file/index.js:10:67)

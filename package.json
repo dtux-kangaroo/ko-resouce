@@ -1,10 +1,13 @@
 {
-  "name": "kangaroo",
-  "version": "1.0.0",
+  "name": "@ko/kangaroo",
+  "version": "1.2.0",
   "description": "resource",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "lerna publish",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
+    "version": "lerna version"
   },
   "repository": {
     "type": "git",
@@ -21,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/dtux-kangaroo/resource/issues"
   },
-  "homepage": "https://github.com/dtux-kangaroo/resource#readme"
+  "homepage": "https://github.com/dtux-kangaroo/resource#readme",
+  "devDependencies": {
+    "lerna": "^3.8.0"
+  }
 }
