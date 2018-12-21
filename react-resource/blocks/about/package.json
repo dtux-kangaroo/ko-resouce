@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/block-about",
-  "version": "1.0.2-alpha.15+615fc16",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
