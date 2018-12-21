@@ -1,5 +1,5 @@
 {
-  "name": "@ko/kangaroo",
+  "name": "@kodesign/kangaroo",
   "version": "1.2.0",
   "description": "resource",
   "main": "index.js",
