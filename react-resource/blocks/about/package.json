@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/block-about",
-  "version": "1.0.3-alpha.18+d50bbd8",
+  "version": "1.1.0-alpha.19+b3e8270",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "d50bbd8a66523eeaeef715e8392fedee1436573e"
+  "gitHead": "b3e8270ba4e9d5a98019da8737c1f9d347a5d69a"
 }

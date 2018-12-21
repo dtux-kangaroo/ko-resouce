@@ -1,6 +1,6 @@
 {
-  "name": "@kodesign/pc-react-sample",
-  "version": "1.2.3-alpha.18+d50bbd8",
+  "name": "pc-react-sample",
+  "version": "1.1.0",
   "description": "this is demo about webpack4",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.com",
-    "access": "src"
+    "access": "public"
   },
   "buildConfig": {
     "entry": "src/index.js"
@@ -30,5 +30,5 @@
   "devDependencies": {
     "ko-script": "^1.0.0"
   },
-  "gitHead": "d50bbd8a66523eeaeef715e8392fedee1436573e"
+  "gitHead": "b3e8270ba4e9d5a98019da8737c1f9d347a5d69a"
 }
