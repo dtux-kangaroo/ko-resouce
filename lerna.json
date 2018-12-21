@@ -11,9 +11,14 @@
       "vue-resource/scaffolds/*"
     ],
     "command": {
-      "publish": {
-        "message": "chore(release): publish"
-      }
+        "publish": {
+          "ignoreChanges": ["ignored-file", "*.md"],
+          "access":"public"
+        },
+        "bootstrap": {
+          "ignore": "component-*",
+          "npmClientArgs": ["--no-package-lock"]
+        }
     },
     "version": "independent",
     "npmClient": "npm",

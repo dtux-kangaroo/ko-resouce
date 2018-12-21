@@ -1,6 +1,6 @@
 {
   "name": "@ko/blank-layout",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "完全空白的布局，通常用来做首页、产品介绍或者登陆页面。推荐使用登陆页分类下的区块。",
   "files": [
     "src/",
