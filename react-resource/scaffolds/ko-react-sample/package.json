@@ -1,6 +1,6 @@
 {
-  "name": "@ko/pc-react-sample",
-  "version": "1.2.2",
+  "name": "@kodesign/pc-react-sample",
+  "version": "1.2.3-alpha.17+93486f8",
   "description": "this is demo about webpack4",
   "main": "index.js",
   "scripts": {
@@ -30,5 +30,5 @@
   "devDependencies": {
     "ko-script": "^1.0.0"
   },
-  "gitHead": "615fc164c0f3a3a0afc97a910bfe7ee570975524"
+  "gitHead": "93486f8d53dd480b5b4af72327af19041a5058bf"
 }

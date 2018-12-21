@@ -8,30 +8,30 @@
 2 verbose rootPath /Users/charlesyang/space/workspace/team/kangaroo-resource
 3 info versioning independent
 4 info canary enabled
-5 verbose session 34bb401d817a4f8d
+5 verbose session 38a02a978ac9dd6f
 6 verbose user-agent lerna/3.8.0/node@v8.11.4+x64 (darwin)
 7 info Verifying npm credentials
 8 verbose Retrieving npm user profile
-9 http fetch GET 200 http://registry.npmjs.org/-/npm/v1/user 5882ms
+9 http fetch GET 200 http://registry.npmjs.org/-/npm/v1/user 628ms
 10 silly npm profile get received {"tfa":false,"name":"charlesyang","email":"yhxyangyi@163.com","email_verified":true,"created":"2018-01-08T07:01:19.594Z","updated":"2018-01-08T07:01:19.590Z","cidr_whitelist":null}
 11 silly npm whoami received {"username":"charlesyang"}
-12 verbose git-describe undefined => "615fc16"
-13 silly git-describe parsed => {"refCount":"16","sha":"615fc16","isDirty":false}
+12 verbose git-describe undefined => "93486f8"
+13 silly git-describe parsed => {"refCount":"18","sha":"93486f8","isDirty":false}
 14 silly hasTags
 15 verbose hasTags false
 16 info Looking for changed packages since initial commit.
 17 verbose updated @kodesign/block-about
 18 verbose updated @kodesign/block-markdown
-19 verbose updated @ko/blank-layout
+19 verbose updated @kodesign/layout-blank
 20 verbose updated @ko/pc-react-sample
-21 verbose git-describe "@kodesign/block-about@*" => "615fc16"
-22 silly git-describe parsed => {"refCount":"16","sha":"615fc16","isDirty":false}
-23 verbose git-describe "@ko/blank-layout@*" => "615fc16"
-24 silly git-describe parsed => {"refCount":"16","sha":"615fc16","isDirty":false}
-25 verbose git-describe "@ko/pc-react-sample@*" => "615fc16"
-26 silly git-describe parsed => {"refCount":"16","sha":"615fc16","isDirty":false}
-27 verbose git-describe "@kodesign/block-markdown@*" => "615fc16"
-28 silly git-describe parsed => {"refCount":"16","sha":"615fc16","isDirty":false}
+21 verbose git-describe "@kodesign/block-about@*" => "93486f8"
+22 silly git-describe parsed => {"refCount":"18","sha":"93486f8","isDirty":false}
+23 verbose git-describe "@kodesign/block-markdown@*" => "93486f8"
+24 silly git-describe parsed => {"refCount":"18","sha":"93486f8","isDirty":false}
+25 verbose git-describe "@kodesign/layout-blank@*" => "93486f8"
+26 silly git-describe parsed => {"refCount":"18","sha":"93486f8","isDirty":false}
+27 verbose git-describe "@ko/pc-react-sample@*" => "93486f8"
+28 silly git-describe parsed => {"refCount":"18","sha":"93486f8","isDirty":false}
 29 silly batched [ PackageGraphNode {
 29 silly batched     name: '@kodesign/block-about',
 29 silly batched     externalDependencies: Map {},
@@ -47,7 +47,7 @@
 29 silly batched     localDependencies: Map {},
 29 silly batched     localDependents: Map {} },
 29 silly batched   PackageGraphNode {
-29 silly batched     name: '@ko/blank-layout',
+29 silly batched     name: '@kodesign/layout-blank',
 29 silly batched     externalDependencies:
 29 silly batched      Map {
 29 silly batched        '@icedesign/layout' => [Object],
@@ -68,49 +68,114 @@
 29 silly batched     localDependents: Map {} } ]
 30 info publish Publishing packages to npm...
 31 silly verifyNpmPackageAccess
-32 http fetch GET 200 http://registry.npmjs.org/-/org/charlesyang/package?format=cli 302ms
-33 warn ENOLICENSE Packages @kodesign/block-about, @kodesign/block-markdown, @ko/blank-layout, @ko/pc-react-sample are missing a license
+32 http fetch GET 200 http://registry.npmjs.org/-/org/charlesyang/package?format=cli 455ms
+33 warn ENOLICENSE Packages @kodesign/block-about, @kodesign/block-markdown, @kodesign/layout-blank, @ko/pc-react-sample are missing a license
 34 silly getCurrentSHA
-35 verbose getCurrentSHA 615fc164c0f3a3a0afc97a910bfe7ee570975524
-36 silly run-lifecycle No script for "prepare" in "@ko/kangaroo", continuing
-37 silly run-lifecycle No script for "prepublishOnly" in "@ko/kangaroo", continuing
-38 silly run-lifecycle No script for "prepack" in "@ko/kangaroo", continuing
+35 verbose getCurrentSHA 93486f8d53dd480b5b4af72327af19041a5058bf
+36 silly run-lifecycle No script for "prepare" in "ko-workspace", continuing
+37 silly run-lifecycle No script for "prepublishOnly" in "ko-workspace", continuing
+38 silly run-lifecycle No script for "prepack" in "ko-workspace", continuing
 39 verbose pack-directory react-resource/blocks/about
 40 verbose pack-directory react-resource/blocks/markdown
 41 verbose pack-directory react-resource/layouts/demoLayout
 42 verbose pack-directory react-resource/scaffolds/ko-react-sample
 43 silly run-lifecycle No script for "prepublish" in "@kodesign/block-about", continuing
 44 silly run-lifecycle No script for "prepublish" in "@kodesign/block-markdown", continuing
-45 silly run-lifecycle prepublish @ko/blank-layout
-46 info lifecycle @ko/blank-layout@1.2.2-alpha.15+615fc16~prepublish: @ko/blank-layout@1.2.2-alpha.15+615fc16
+45 silly run-lifecycle prepublish @kodesign/layout-blank
+46 info lifecycle @kodesign/layout-blank@1.2.4-alpha.17+93486f8~prepublish: @kodesign/layout-blank@1.2.4-alpha.17+93486f8
 47 silly run-lifecycle No script for "prepublish" in "@ko/pc-react-sample", continuing
 48 silly run-lifecycle No script for "prepare" in "@kodesign/block-about", continuing
 49 silly run-lifecycle No script for "prepare" in "@kodesign/block-markdown", continuing
 50 silly run-lifecycle No script for "prepare" in "@ko/pc-react-sample", continuing
-51 verbose lifecycle @ko/blank-layout@1.2.2-alpha.15+615fc16~prepublish: unsafe-perm in lifecycle true
-52 verbose lifecycle @ko/blank-layout@1.2.2-alpha.15+615fc16~prepublish: PATH: /Users/charlesyang/space/workspace/team/kangaroo-resource/node_modules/npm-lifecycle/node-gyp-bin:/Users/charlesyang/space/workspace/team/kangaroo-resource/react-resource/layouts/demoLayout/node_modules/.bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4@global/bin:/Users/charlesyang/.rvm/rubies/ruby-2.2.4/bin:./Users/charlesyang/.yarn/bin:/Users/charlesyang/.config/yarn/global/node_modules/.bin:/Users/charlesyang/.node/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/usr/local/go/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4@global/bin:/Users/charlesyang/.rvm/rubies/ruby-2.2.4/bin:./Users/charlesyang/.yarn/bin:/Users/charlesyang/.config/yarn/global/node_modules/.bin:/Users/charlesyang/.node/bin:/Users/charlesyang/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin:/Users/charlesyang/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin
-53 verbose lifecycle @ko/blank-layout@1.2.2-alpha.15+615fc16~prepublish: CWD: /Users/charlesyang/space/workspace/team/kangaroo-resource/react-resource/layouts/demoLayout
-54 silly lifecycle @ko/blank-layout@1.2.2-alpha.15+615fc16~prepublish: Args: [ '-c', 'ice block build' ]
-55 silly run-lifecycle No script for "prepublishOnly" in "@ko/pc-react-sample", continuing
+51 verbose lifecycle @kodesign/layout-blank@1.2.4-alpha.17+93486f8~prepublish: unsafe-perm in lifecycle true
+52 verbose lifecycle @kodesign/layout-blank@1.2.4-alpha.17+93486f8~prepublish: PATH: /Users/charlesyang/space/workspace/team/kangaroo-resource/node_modules/npm-lifecycle/node-gyp-bin:/Users/charlesyang/space/workspace/team/kangaroo-resource/react-resource/layouts/demoLayout/node_modules/.bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4@global/bin:/Users/charlesyang/.rvm/rubies/ruby-2.2.4/bin:./Users/charlesyang/.yarn/bin:/Users/charlesyang/.config/yarn/global/node_modules/.bin:/Users/charlesyang/.node/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/usr/local/go/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4@global/bin:/Users/charlesyang/.rvm/rubies/ruby-2.2.4/bin:./Users/charlesyang/.yarn/bin:/Users/charlesyang/.config/yarn/global/node_modules/.bin:/Users/charlesyang/.node/bin:/Users/charlesyang/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin:/Users/charlesyang/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin
+53 verbose lifecycle @kodesign/layout-blank@1.2.4-alpha.17+93486f8~prepublish: CWD: /Users/charlesyang/space/workspace/team/kangaroo-resource/react-resource/layouts/demoLayout
+54 silly lifecycle @kodesign/layout-blank@1.2.4-alpha.17+93486f8~prepublish: Args: [ '-c', 'ice block build' ]
+55 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/block-about", continuing
 56 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/block-markdown", continuing
-57 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/block-about", continuing
-58 silly run-lifecycle No script for "prepack" in "@ko/pc-react-sample", continuing
+57 silly run-lifecycle No script for "prepublishOnly" in "@ko/pc-react-sample", continuing
+58 silly run-lifecycle No script for "prepack" in "@kodesign/block-about", continuing
 59 silly run-lifecycle No script for "prepack" in "@kodesign/block-markdown", continuing
-60 silly run-lifecycle No script for "prepack" in "@kodesign/block-about", continuing
+60 silly run-lifecycle No script for "prepack" in "@ko/pc-react-sample", continuing
 61 silly run-lifecycle No script for "postpack" in "@kodesign/block-markdown", continuing
 62 silly run-lifecycle No script for "postpack" in "@kodesign/block-about", continuing
-63 silly lifecycle @ko/blank-layout@1.2.2-alpha.15+615fc16~prepublish: Returned: code: 0  signal: null
-64 silly run-lifecycle No script for "prepare" in "@ko/blank-layout", continuing
-65 silly run-lifecycle No script for "prepublishOnly" in "@ko/blank-layout", continuing
-66 silly run-lifecycle No script for "prepack" in "@ko/blank-layout", continuing
-67 silly run-lifecycle No script for "postpack" in "@ko/blank-layout", continuing
+63 silly lifecycle @kodesign/layout-blank@1.2.4-alpha.17+93486f8~prepublish: Returned: code: 0  signal: null
+64 silly run-lifecycle No script for "prepare" in "@kodesign/layout-blank", continuing
+65 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/layout-blank", continuing
+66 silly run-lifecycle No script for "prepack" in "@kodesign/layout-blank", continuing
+67 silly run-lifecycle No script for "postpack" in "@kodesign/layout-blank", continuing
 68 silly run-lifecycle No script for "postpack" in "@ko/pc-react-sample", continuing
-69 silly run-lifecycle No script for "postpack" in "@ko/kangaroo", continuing
+69 silly run-lifecycle No script for "postpack" in "ko-workspace", continuing
 70 verbose publish @kodesign/block-about
 71 verbose publish @kodesign/block-markdown
-72 verbose publish @ko/blank-layout
+72 verbose publish @kodesign/layout-blank
 73 verbose publish @ko/pc-react-sample
-74 http fetch PUT 403 http://registry.npmjs.org/@ko%2fblank-layout 647ms
-75 error Error: 403 Forbidden - PUT http://registry.npmjs.org/@ko%2fblank-layout - Forbidden
-75 error     at res.buffer.catch.then.body (/Users/charlesyang/space/workspace/team/kangaroo-resource/node_modules/npm-registry-fetch/check-response.js:104:15)
-75 error     at <anonymous>
+74 silly run-lifecycle No script for "publish" in "@kodesign/block-markdown", continuing
+75 silly run-lifecycle No script for "postpublish" in "@kodesign/block-markdown", continuing
+76 success published @kodesign/block-markdown 1.2.3-alpha.17+93486f8
+77 notice
+78 notice 📦  @kodesign/block-markdown@1.2.3-alpha.17+93486f8
+79 notice === Tarball Contents ===
+80 notice 686B  package.json
+80 notice 0     README.md
+80 notice 497B  src/index.js
+80 notice 4.8kB src/test.md
+81 notice === Tarball Details ===
+82 notice name:          @kodesign/block-markdown
+82 notice version:       1.2.3-alpha.17+93486f8
+82 notice filename:      kodesign-block-markdown-1.2.3-alpha.17+93486f8.tgz
+82 notice package size:  2.4 kB
+82 notice unpacked size: 6.0 kB
+82 notice shasum:        fab17b579fd8ed6909c849824f2a5b25f21cb10b
+82 notice integrity:     sha512-UkeKZHb72LgaO[...]kEFJ559zcYLhQ==
+82 notice total files:   4
+83 notice
+84 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fblock-markdown 3799ms
+85 silly run-lifecycle No script for "publish" in "@kodesign/block-about", continuing
+86 silly run-lifecycle No script for "postpublish" in "@kodesign/block-about", continuing
+87 success published @kodesign/block-about 1.0.3-alpha.17+93486f8
+88 notice
+89 notice 📦  @kodesign/block-about@1.0.3-alpha.17+93486f8
+90 notice === Tarball Contents ===
+91 notice 291B  package.json
+91 notice 698B  packagewee.json
+91 notice 0     README.md
+91 notice 4.4kB src/about.jsx
+91 notice 52B   src/index.js
+92 notice === Tarball Details ===
+93 notice name:          @kodesign/block-about
+93 notice version:       1.0.3-alpha.17+93486f8
+93 notice filename:      kodesign-block-about-1.0.3-alpha.17+93486f8.tgz
+93 notice package size:  2.1 kB
+93 notice unpacked size: 5.4 kB
+93 notice shasum:        c25ca8b366d819c633109aa73fef590ccf00d4a0
+93 notice integrity:     sha512-/imbh4aB/mT0Z[...]8yzDr02uOt3NQ==
+93 notice total files:   5
+94 notice
+95 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fblock-about 6373ms
+96 silly run-lifecycle No script for "publish" in "@kodesign/layout-blank", continuing
+97 silly run-lifecycle No script for "postpublish" in "@kodesign/layout-blank", continuing
+98 success published @kodesign/layout-blank 1.2.4-alpha.17+93486f8
+99 notice
+100 notice 📦  @kodesign/layout-blank@1.2.4-alpha.17+93486f8
+101 notice === Tarball Contents ===
+102 notice 1.3kB package.json
+102 notice 136B  README.md
+102 notice 55B   src/index.js
+102 notice 376B  src/Layout.jsx
+102 notice 38B   src/Layout.scss
+103 notice === Tarball Details ===
+104 notice name:          @kodesign/layout-blank
+104 notice version:       1.2.4-alpha.17+93486f8
+104 notice filename:      kodesign-layout-blank-1.2.4-alpha.17+93486f8.tgz
+104 notice package size:  1.2 kB
+104 notice unpacked size: 1.9 kB
+104 notice shasum:        22aa435471e1544440962c3286339fe059bb65f8
+104 notice integrity:     sha512-3UPkSkDA+6DkX[...]Kt55lTlSPODyA==
+104 notice total files:   5
+105 notice
+106 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2flayout-blank 7411ms
+107 http fetch PUT 402 http://registry.npmjs.org/@ko%2fpc-react-sample 73576ms
+108 error Error: 402 Payment Required - PUT http://registry.npmjs.org/@ko%2fpc-react-sample - You must sign up for private packages
+108 error     at res.buffer.catch.then.body (/Users/charlesyang/space/workspace/team/kangaroo-resource/node_modules/npm-registry-fetch/check-response.js:104:15)
+108 error     at <anonymous>
