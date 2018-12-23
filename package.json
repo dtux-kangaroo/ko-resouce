@@ -4,7 +4,7 @@
   "description": "resource",
   "main": "index.js",
   "scripts": {
-    "publish": "lerna publish",
+    "publish": "lerna publish", 
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
     "version": "lerna version"
