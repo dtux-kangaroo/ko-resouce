@@ -3,7 +3,7 @@ import './style.scss'
 export default class Header extends React.Component{
     
     render(){
-        return <div style={{width:"100%",color:"blue"}}>
+        return <div style={{width:"100%",color:"red"}}>
             this is header dll seccess
         </div>
     }
