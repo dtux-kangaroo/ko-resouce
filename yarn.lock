@@ -2123,7 +2123,7 @@ lcid@^2.0.0:
 
 lerna@^3.8.0:
   version "3.8.0"
-  resolved "https://registry.yarnpkg.com/lerna/-/lerna-3.8.0.tgz#55f4d4144ddad2872ee5bc52a47366df10a3b7ee"
+  resolved "http://registry.npm.taobao.org/lerna/download/lerna-3.8.0.tgz#55f4d4144ddad2872ee5bc52a47366df10a3b7ee"
   dependencies:
     "@lerna/add" "^3.7.2"
     "@lerna/bootstrap" "^3.7.2"

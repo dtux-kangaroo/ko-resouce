@@ -1,13 +1,13 @@
 {
   "name": "@kodesign/article-list-block",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "文章列表",
   "main": "lib/index.js",
   "files": [
     "src/",
     "build/"
   ],
-  "author":"dtux",
+  "author": "dtux",
   "repository": {
     "type": "git",
     "url": "https://github.com/dtux-kangaroo/ko-resouce/tree/master/react-resource/blocks/article-list"

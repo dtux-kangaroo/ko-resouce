@@ -1,12 +1,12 @@
 {
   "name": "@kodesign/change-password-form-block",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "files": [
     "src/",
     "build/"
   ],
-  "author":"dtux",
+  "author": "dtux",
   "repository": {
     "type": "git",
     "url": "https://github.com/dtux-kangaroo/ko-resouce/tree/master/react-resource/change-password-form"
