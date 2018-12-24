@@ -11,6 +11,10 @@
     "access": "public",
     "registry": "http://registry.npmjs.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtux-kangaroo/ko-resouce/tree/master/react-resource/blocks/markdown"
+  },
   "license": "MIT",
   "keywords": [
     "ko",
