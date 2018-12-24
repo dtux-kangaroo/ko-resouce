@@ -1,0 +1,40 @@
+{
+  "name": "@kodesign/article-list-block",
+  "version": "1.0.0",
+  "description": "文章列表",
+  "main": "lib/index.js",
+  "files": [
+    "src/",
+    "build/"
+  ],
+  "author":"dtux",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtux-kangaroo/ko-resouce/tree/master/react-resource/blocks/article-list"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ko-block"
+  ],
+  "dependencies": {
+    "prop-types": "^15.5.8"
+  },
+  "devDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "blockConfig": {
+    "name": "article-list",
+    "screenshot": "https://raw.githubusercontent.com/dtux-kangaroo/roo-config/master/block-covers/article-list.png",
+    "themePackage": "",
+    "title": "文章列表",
+    "categories": [
+      "信息展示"
+    ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
+  "homepage": ""
+}

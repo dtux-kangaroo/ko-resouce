@@ -1,0 +1,42 @@
+{
+  "name": "@kodesign/circle-progress-block",
+  "version": "1.0.0",
+  "description": "环形进度条",
+  "files": [
+    "src/",
+    "demo/",
+    "lib/",
+    "mock/",
+    "build/"
+  ],
+  "author": "dtux",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtux-kangaroo/ko-resouce/tree/master/react-resource/blocks/circle-progress"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ko-block"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.8"
+  },
+  "devDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "blockConfig": {
+    "name": "circle-progress",
+    "screenshot": "https://raw.githubusercontent.com/dtux-kangaroo/roo-config/master/block-covers/circle-progress.png",
+    "title": "环形进度条",
+    "categories": [
+      "数据展示"
+    ],
+    "themePackage": ""
+  },
+  "homepage": ""
+}

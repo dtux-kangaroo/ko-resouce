@@ -1,12 +1,36 @@
 {
   "name": "@kodesign/block-about",
-  "version": "1.1.0-alpha.19+b3e8270",
-  "description": "",
+  "version": "1.2.2",
+  "description": "适用于产品的简介",
+  "homepage":"",
+  "author": "dtux",
   "main": "index.js",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtux-kangaroo/ko-resouce/tree/master/react-resource/blocks/about"
+  },
+  "keywords": [
+    "ko",
+    "react",
+    "block"
+  ],
+  "dependencies": {
+    "react": "^16.2.0"
+  },
+  "blockConfig": {
+    "name": "about",
+    "title": "关于",
+    "categories": [
+      "信息展示"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/dtux-kangaroo/roo-config/master/block-covers/about.png"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "gitHead": "b3e8270ba4e9d5a98019da8737c1f9d347a5d69a"
+  }
 }

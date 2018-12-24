@@ -1,0 +1,42 @@
+{
+  "name": "@kodesign/brand-display-block",
+  "version": "1.0.0",
+  "description": "品牌列表展示",
+  "main": "lib/index.js",
+  "files": [
+    "src/",
+    "build/"
+  ],
+  "author":"dtux",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dtux-kangaroo/ko-resouce/tree/master/react-resource/blocks/brand-display"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ko-block"
+  ],
+  "dependencies": {
+    "enquire-js": "^0.1.2",
+    "prop-types": "^15.5.8"
+  },
+  "devDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "blockConfig": {
+    "name": "brand-display",
+    "screenshot": "https://raw.githubusercontent.com/dtux-kangaroo/roo-config/master/block-covers/brand-display.png",
+    "themePackage": "",
+    "title": "品牌列表展示",
+    "categories": [
+      "信息展示",
+      "欢迎页"
+    ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
+  "homepage": ""
+}
