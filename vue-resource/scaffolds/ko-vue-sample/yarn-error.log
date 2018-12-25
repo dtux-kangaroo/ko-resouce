@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.9.4/libexec/bin/yarn.js
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.9.4/libexec/bin/yarn.js add CopyWebpackPlugin --dev
 
 PATH: 
   /Users/charlesyang/.rvm/gems/ruby-2.2.4/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4@global/bin:/Users/charlesyang/.rvm/rubies/ruby-2.2.4/bin:./Users/charlesyang/.yarn/bin:/Users/charlesyang/.config/yarn/global/node_modules/.bin:/Users/charlesyang/.node/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/usr/local/go/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4@global/bin:/Users/charlesyang/.rvm/rubies/ruby-2.2.4/bin:./Users/charlesyang/.yarn/bin:/Users/charlesyang/.config/yarn/global/node_modules/.bin:/Users/charlesyang/.node/bin:/Users/charlesyang/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin:/Users/charlesyang/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin
@@ -14,21 +14,21 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/charlesyang/space/workspace/team/kangaroo-resource/vue-resource/scaffolds/ko-vue-sample/package.json: Unexpected token < in JSON at position 2
-      at JSON.parse (<anonymous>)
-      at /usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:1130:59
-      at Generator.next (<anonymous>)
-      at step (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:92:30)
-      at /usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:103:13
-      at <anonymous>
+  Error: http://registry.npmjs.org/CopyWebpackPlugin: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:64202:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:137468:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:138440:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:138362:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
 
 npm manifest: 
   {
-  <<<<<<< HEAD
-    "name": "dtux-vue",
-  =======
     "name": "@kodesign/ko-vue-sample",
-  >>>>>>> master
     "version": "1.1.2",
     "description": "ko",
     "author": "dtux",
@@ -43,12 +43,12 @@ npm manifest:
       "@babel/polyfill": "^7.2.5",
       "axios": "^0.18.0",
       "echarts": "^4.2.0-rc.1",
-      "element-ui": "^2.4.5",
       "lodash.debounce": "^4.0.8",
       "viser-vue": "^2.2.5",
       "vue": "^2.5.2",
       "vue-router": "^3.0.1",
-      "vuex": "^3.0.1"
+      "vuex": "^3.0.1",
+      "element-ui": "^2.4.5"
     },
     "devDependencies": {}
   }
