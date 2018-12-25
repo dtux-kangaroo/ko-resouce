@@ -14,6 +14,7 @@
   "author": "kangaroo",
   "license": "ISC",
   "dependencies": {
+    "@babel/polyfill": "^7.2.5",
     "bizcharts": "^3.2.2",
     "lodash": "^4.17.10",
     "react": "^16.4.2",
