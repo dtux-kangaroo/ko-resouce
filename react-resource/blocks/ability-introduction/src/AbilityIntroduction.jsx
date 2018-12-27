@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import { Grid } from '@icedesign/base';
-
-const { Row, Col } = Grid;
-
+import {  Row, Col } from 'antd';
 const frameworkIcon = require('./images/framework_icon.png');
 const componentIcon = require('./images/component_icon.png');
 const apiIcon = require('./images/api_icon.png');

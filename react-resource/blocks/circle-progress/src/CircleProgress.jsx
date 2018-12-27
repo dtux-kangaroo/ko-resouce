@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import IceContainer from '@icedesign/container';
-import { Progress, Grid } from '@icedesign/base';
-
-const { Row, Col } = Grid;
+import { Progress,  Row, Col } from 'antd';
 
 export default class CircleProgress extends Component {
   static displayName = 'CircleProgress';
@@ -18,7 +15,7 @@ export default class CircleProgress extends Component {
 
   render() {
     return (
-      <IceContainer title="项目进度">
+      <div>
         <Row wrap>
           <Col xxs="12" s="6" l="6">
             <div style={styles.item}>
@@ -55,7 +52,7 @@ export default class CircleProgress extends Component {
             </div>
           </Col>
         </Row>
-      </IceContainer>
+      </div>
     );
   }
 }

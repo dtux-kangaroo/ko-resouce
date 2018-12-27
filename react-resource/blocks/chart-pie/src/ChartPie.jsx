@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Chart, Axis, Geom, Tooltip, Coord, Legend, Label } from 'bizcharts';
 import { DataView } from '@antv/data-set';
-import IceContainer from '@icedesign/container';
 
 export default class ChartPie extends Component {
   static displayName = 'ChartPie';
@@ -44,7 +43,7 @@ export default class ChartPie extends Component {
 
     return (
       <div className="chart-pie">
-        <IceContainer>
+        <div>
           <h4 style={styles.title}>饼图</h4>
           <Chart
             height={400}
@@ -84,7 +83,7 @@ export default class ChartPie extends Component {
               />
             </Geom>
           </Chart>
-        </IceContainer>
+        </div>
       </div>
     );
   }

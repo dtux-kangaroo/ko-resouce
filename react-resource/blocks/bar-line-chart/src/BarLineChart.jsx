@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import IceContainer from '@icedesign/container';
 import ReactEcharts from 'echarts-for-react';
 
 /**
@@ -165,9 +164,9 @@ export default class BarLineChart extends Component {
   render() {
     return (
       <div className="bar-line-chart">
-        <IceContainer>
+        <div>
           <ReactEcharts option={this.getOption()} style={{ height: '350px' }} />
-        </IceContainer>
+        </div>
       </div>
     );
   }

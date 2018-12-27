@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import Img from '@icedesign/img';
-import { Grid } from '@icedesign/base';
+import { Row, Col } from 'antd';
 import { enquireScreen } from 'enquire-js';
-
-const { Row, Col } = Grid;
 
 const dataSource = [
   {
@@ -79,9 +76,8 @@ export default class BrandDisplay extends Component {
               <Col xxs="24" s="12" l="12" key={index} style={styles.brandItem}>
                 <a href={item.url} style={styles.brandItemContent}>
                   <div>
-                    <Img
-                      width={logoWidth}
-                      height={logoHeight}
+                    <img
+                      style={{display:'block',width:logoWidth,height:logoHeight}}
                       src={item.pic}
                       type="cover"
                       alt="图片"

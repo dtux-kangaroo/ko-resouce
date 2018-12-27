@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import IceContainer from '@icedesign/container';
-import { Icon } from '@icedesign/base';
+import { Icon } from 'antd';
 
 const generatorData = () => {
   return Array.from({ length: 5 }).map(() => {
@@ -28,7 +27,7 @@ export default class ArticleList extends Component {
     const dataSource = generatorData();
     return (
       <div className="article-list">
-        <IceContainer style={styles.articleFilterCard}>
+        <div style={styles.articleFilterCard}>
           <ul className="article-sort" style={styles.articleSort}>
             <li style={styles.sortItem}>
               最新 <Icon type="arrow-down" size="xs" />
@@ -43,8 +42,8 @@ export default class ArticleList extends Component {
               距离开始开启最近 <Icon type="arrow-down" size="xs" />
             </li>
           </ul>
-        </IceContainer>
-        <IceContainer>
+        </div>
+        <div>
           {dataSource.map((item, index) => {
             return (
               <div key={index} style={styles.articleItem}>
@@ -85,7 +84,7 @@ export default class ArticleList extends Component {
               </div>
             );
           })}
-        </IceContainer>
+        </div>
       </div>
     );
   }

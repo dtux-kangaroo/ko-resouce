@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import IceContainer from '@icedesign/container';
 import { Chart, Geom, Tooltip, Label } from 'bizcharts';
 import { DataView } from '@antv/data-set';
 
@@ -73,7 +72,7 @@ export default class ChartRelation extends Component {
       '</li>';
     return (
       <div className="chart-relation">
-        <IceContainer>
+        <div>
           <h4 style={styles.title}>面积图</h4>
           <Chart
             data={nodes}
@@ -110,7 +109,7 @@ export default class ChartRelation extends Component {
               />
             </Geom>
           </Chart>
-        </IceContainer>
+        </div>
       </div>
     );
   }

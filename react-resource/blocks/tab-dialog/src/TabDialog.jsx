@@ -1,7 +1,6 @@
 /* eslint no-unused-expressions: 0 */
 import React, { Component } from 'react';
-import { Dialog, Tab, Table, Button } from '@icedesign/base';
-import IceContainer from '@icedesign/container';
+import { Dialog, Tab, Table, Button } from 'antd';
 
 const TabPane = Tab.TabPane;
 
@@ -68,7 +67,7 @@ export default class TabDialog extends Component {
 
   render() {
     return (
-      <IceContainer>
+      <div>
         <Dialog
           className="tab-dialog"
           style={styles.dialog}
@@ -119,7 +118,7 @@ export default class TabDialog extends Component {
         <Button type="primary" onClick={this.showDialog}>
           显示 Dialog
         </Button>
-      </IceContainer>
+      </div>
     );
   }
 }

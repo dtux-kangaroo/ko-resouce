@@ -1,161 +1,52 @@
 /* eslint react/no-string-refs:0 */
 import React, { Component } from 'react';
-import { Input, Button, Checkbox, Grid } from '@icedesign/base';
 import {
-  FormBinderWrapper as IceFormBinderWrapper,
-  FormBinder as IceFormBinder,
-  FormError as IceFormError,
-} from '@icedesign/form-binder';
-import IceIcon from '@icedesign/icon';
-import './SignupForm.scss';
-
-const { Row, Col } = Grid;
-
-export default class SignupForm extends Component {
-  static displayName = 'SignupForm';
-
-  static defaultProps = {};
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      value: {
-        account: undefined,
-        password: undefined,
-        checkbox: false,
-      },
-    };
-  }
-
-  formChange = (value) => {
-    this.setState({
-      value,
-    });
-  };
-
+  Form, Icon, Input, Button, Checkbox,
+} from 'antd';
+import './style.scss';
+class SignupForm extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault();
-    this.refs.form.validateAll((errors, values) => {
-      console.log('values', values);
+    this.props.form.validateFields((err, values) => {
+      if (!err) {
+        console.log('Received values of form: ', values);
+      }
     });
-  };
+  }
 
   render() {
+    const { getFieldDecorator } = this.props.form;
     return (
-      <div className="signup-form" style={styles.signupForm}>
-        <div style={styles.formContainer}>
-          <h4 style={styles.formTitle}>登录</h4>
-          <IceFormBinderWrapper
-            value={this.state.value}
-            onChange={this.formChange}
-            ref="form"
-          >
-            <div style={styles.formItems}>
-              <Row style={styles.formItem}>
-                <Col>
-                  <IceIcon
-                    type="person"
-                    size="small"
-                    style={styles.inputIcon}
-                  />
-                  <IceFormBinder name="account" required message="必填">
-                    <Input maxLength={20} placeholder="会员名/邮箱/手机号" />
-                  </IceFormBinder>
-                </Col>
-                <Col>
-                  <IceFormError name="account" />
-                </Col>
-              </Row>
-
-              <Row style={styles.formItem}>
-                <Col>
-                  <IceIcon type="lock" size="small" style={styles.inputIcon} />
-                  <IceFormBinder name="password">
-                    <Input htmlType="password" placeholder="密码" />
-                  </IceFormBinder>
-                </Col>
-                <Col>
-                  <IceFormError name="account" />
-                </Col>
-              </Row>
-
-              <Row style={styles.formItem}>
-                <Col>
-                  <IceFormBinder name="checkbox">
-                    <Checkbox>记住账号</Checkbox>
-                  </IceFormBinder>
-                </Col>
-              </Row>
-
-              <Row style={styles.formItem}>
-                <Button
-                  type="primary"
-                  onClick={this.handleSubmit}
-                  style={styles.submitBtn}
-                >
-                  登 录
-                </Button>
-              </Row>
-
-              <Row className="tips" style={styles.tips}>
-                <a href="/" style={styles.link}>
-                  立即注册
-                </a>
-                <span style={styles.line}>|</span>
-                <a href="/" style={styles.link}>
-                  忘记密码
-                </a>
-              </Row>
-            </div>
-          </IceFormBinderWrapper>
-        </div>
-      </div>
+      <Form onSubmit={this.handleSubmit} className="login-form">
+        <Form.Item>
+          {getFieldDecorator('userName', {
+            rules: [{ required: true, message: 'Please input your username!' }],
+          })(
+            <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="Username" />
+          )}
+        </Form.Item>
+        <Form.Item>
+          {getFieldDecorator('password', {
+            rules: [{ required: true, message: 'Please input your Password!' }],
+          })(
+            <Input prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="Password" />
+          )}
+        </Form.Item>
+        <Form.Item>
+          {getFieldDecorator('remember', {
+            valuePropName: 'checked',
+            initialValue: true,
+          })(
+            <Checkbox>记住密码</Checkbox>
+          )}
+          <a className="login-form-forgot" href="">忘记密码</a>
+          <Button type="primary" htmlType="submit" className="login-form-button">
+            登陆
+          </Button>
+           <a href="">注册账号</a>
+        </Form.Item>
+      </Form>
     );
   }
 }
-
-const styles = {
-  formContainer: {
-    display: 'flex',
-    justifyContent: 'center',
-    flexDirection: 'column',
-    padding: '30px 40px',
-    background: '#fff',
-    borderRadius: '6px',
-    boxShadow: '1px 1px 2px #eee',
-  },
-  formItem: {
-    position: 'relative',
-    marginBottom: '25px',
-    flexDirection: 'column',
-  },
-  formTitle: {
-    margin: '0 0 20px',
-    textAlign: 'center',
-    color: '#3080fe',
-    letterSpacing: '12px',
-  },
-  inputIcon: {
-    position: 'absolute',
-    left: '0px',
-    top: '5px',
-    color: '#999',
-  },
-  submitBtn: {
-    width: '240px',
-    background: '#3080fe',
-    borderRadius: '28px',
-  },
-  tips: {
-    textAlign: 'center',
-  },
-  link: {
-    color: '#999',
-    textDecoration: 'none',
-    fontSize: '13px',
-  },
-  line: {
-    color: '#dcd6d6',
-    margin: '0 8px',
-  },
-};
+export default Form.create()(SignupForm);

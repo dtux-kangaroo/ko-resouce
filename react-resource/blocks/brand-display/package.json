@@ -17,6 +17,7 @@
     "ko-block"
   ],
   "dependencies": {
+    "antd":"^3.4.0",
     "enquire-js": "^0.1.2",
     "prop-types": "^15.5.8"
   },
