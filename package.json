@@ -31,5 +31,8 @@
   "homepage": "https://github.com/dtux-kangaroo/resource#readme",
   "devDependencies": {
     "lerna": "^3.8.0"
+  },
+  "dependencies": {
+    "react-scroll-up": "^1.3.3"
   }
 }

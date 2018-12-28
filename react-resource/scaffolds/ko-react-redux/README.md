@@ -25,6 +25,6 @@ npm install -g ko-script
 
  ```
 
-4、ko-script   [使用参考](https://www.npmjs.com/package/ko-script) 
+4、ko-script  详细使用 [参考](https://www.npmjs.com/package/ko-script) 
 
 

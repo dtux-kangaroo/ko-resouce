@@ -6,7 +6,7 @@
 ```text
 
  热更新、ES6/7、scss、bable7,vue-route、vue、vuex、webpack4、async／await、前端node服务器，按需加载...
- 
+
 ```
 
 2、 安装依赖包。
@@ -27,6 +27,6 @@ npm install -g ko-script
 
  ```
 
-4、ko-script   [使用参考](https://www.npmjs.com/package/ko-script) 
+4、ko-script  详细使用 [参考](https://www.npmjs.com/package/ko-script) 
 
 
