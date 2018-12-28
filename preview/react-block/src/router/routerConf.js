@@ -5,11 +5,11 @@
  * @Author: Charles
  * @Date: 2018-12-26 12:00:39
  * @LastEditors: Charles
- * @LastEditTime: 2018-12-28 16:20:25
+ * @LastEditTime: 2018-12-28 19:46:51
  */
 import React from 'react';
 import docLayout  from 'layout/docLayout';
-import Doc from '../pages/doc'
+import AboutDoc from '../pages/doc/about'
 
 import CompLayout  from 'layout/compLayout';
 import Com from '../pages/com'
@@ -25,7 +25,7 @@ const routerConf=[
     {
         path: '/',
         layout: docLayout,
-        component:Doc ,
+        component:AboutDoc ,
     },
     {
         path: '/com',

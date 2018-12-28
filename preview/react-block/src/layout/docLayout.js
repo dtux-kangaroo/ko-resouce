@@ -8,22 +8,26 @@ export default class BlockLayout extends Component {
     this.state = {
         sideData:[
             {
-                name:"说明",
+                name:"",
                 path:'',
                 children:[
                   {
-                    name:'ko-script使用',
-                    path:'/block/about'
+                    name:'关于kangaroo',
+                    path:'/'
+                  },
+                  {
+                    name:'补充中...',
+                    path:''
                   }
                 ]
             },
             {
-                name:"地方",
+                name:"入门指引",
                 path:'',
                 children:[
                   {
-                    name:'叠加面积图',
-                    path:'/block/about'
+                    name:'补充中...',
+                    path:''
                   }
                 ]
             }

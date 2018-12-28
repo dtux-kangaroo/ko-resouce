@@ -11,7 +11,12 @@ module.exports = (context) => {
       entry: {},
       output: {},
       module: {
-        rules: []
+        rules: [
+          {
+            test: /\.md$/,
+            loader : 'raw-loader'
+          }
+        ]
       },
       resolve:{
         alias: {

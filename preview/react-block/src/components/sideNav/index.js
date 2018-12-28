@@ -43,7 +43,7 @@ export default class Header extends React.Component {
             <nav className="side-nav">
               <ul>
                 <li className="nav-item">
-                  <a>区块指南</a>
+                  {/* <a>区块指南</a> */}
                   {
                     data.map((item ,idx)=> {
                       return (
@@ -54,7 +54,7 @@ export default class Header extends React.Component {
                               item.children.map((child,idk )=> {
                                 return (
                                   <li key={idk+idx+2} className="nav-item">
-                                    <a href={`/${child.path}`} className={child.path ==location.pathname ? 'active' : ''}>{child.name}</a>
+                                    <a href={`${child.path}`} className={child.path ==location.pathname ? 'active' : ''}>{child.name}</a>
                                   </li>
                                 )
                               })
