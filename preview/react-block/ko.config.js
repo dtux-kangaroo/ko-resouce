@@ -14,6 +14,13 @@ module.exports = (context) => {
         rules: []
       },
       resolve:{
+        alias: {
+          block: path.resolve(__dirname, '../../react-resource/blocks'),
+          assets :path.resolve(__dirname,'public/assets'),
+          layout:path.resolve(__dirname, 'src/layout'),
+          components:path.resolve(__dirname, 'src/components')
+
+        }
       }
     }
   };

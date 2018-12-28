@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+ <%= htmlWebpackPlugin.options.assets.config %> 
 </head>
 
 <body>
@@ -13,5 +14,8 @@
     <div class="dll">
         <%= htmlWebpackPlugin.options.scripts %>
     </div>
+<div class="dll">
+                  <%= htmlWebpackPlugin.options.assets.scripts %>
+             </div>
 </body>
 </html>
