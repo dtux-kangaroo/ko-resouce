@@ -54,7 +54,7 @@ export default class Header extends React.Component {
                               item.children.map((child,idk )=> {
                                 return (
                                   <li key={idk+idx+2} className="nav-item">
-                                    <a href={`${child.path}`} className={child.path ==location.pathname ? 'active' : ''}>{child.name}</a>
+                                    <a href={`#${child.path}`} className={child.path ==location.pathname ? 'active' : ''}>{child.name}</a>
                                   </li>
                                 )
                               })

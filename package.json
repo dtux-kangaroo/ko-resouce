@@ -8,7 +8,9 @@
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
     "version": "lerna version",
-    "push:gh-pages":"./scripts/push.sh"
+    "push:gh-pages":"./scripts/push.sh",
+    "preview":"pushstate-server ./gh-pages 1234"
+
   },
   "repository": {
     "type": "git",

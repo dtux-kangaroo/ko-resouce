@@ -1,3 +1,7 @@
 dist
 node_modules
-dll
+scripts
+tools
+lerna.json
+
+preview 

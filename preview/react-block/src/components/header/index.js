@@ -60,7 +60,7 @@ export default class Header extends React.Component {
                {
                     headerData.map((item,idx)=>(
                     <li className="nav-item" key={idx}>
-                        <a href={item.path} className={location.pathname==item.path?"active":""} onClick={this.setCurItem.bind(this,item)}>{item.name}</a>
+                        <a href={`#${item.path}`} className={location.pathname==item.path?"active":""} onClick={this.setCurItem.bind(this,item)}>{item.name}</a>
                       </li>
                     ))
                 }
@@ -68,7 +68,7 @@ export default class Header extends React.Component {
               <ul className="nav-right">
                 <li className="nav-item"> <a href="https://github.com/dtux-kangaroo" target="_blank">github</a></li>
                 <li className="nav-item"> <a href="https://zhuanlan.zhihu.com/c_109929958" target="_blank">社区</a></li>
-                <li className="nav-item"> <a href='/download' className={location.pathname=='/download'?"checked":""}>下载</a></li>
+                <li className="nav-item"> <a href='https://dtux-kangaroo.github.io/ko-resouce/#/template' className={location.pathname=='/download'?"checked":""}>下载</a></li>
               </ul>
               
             </div>
