@@ -8,7 +8,7 @@ cd gh-pages
 echo $ORIGIN
 # init an empty git repo, checkout branch gh-pages
 git init
-git remote add origin $ORIGIN
+git remote add origin git@github.com:dtux-kangaroo/ko-resouce.git
 git fetch
 git checkout -t origin/gh-pages
 
