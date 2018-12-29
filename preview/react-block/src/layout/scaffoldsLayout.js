@@ -6,7 +6,7 @@ export default class scaffoldsLayout extends Component {
     return (
       <MainLayout {...this.props}>
            <div>
-             脚手架列表
+            {this.props.children}
            </div>
       </MainLayout>
     );

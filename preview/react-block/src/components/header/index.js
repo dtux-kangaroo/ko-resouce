@@ -26,6 +26,11 @@ export default class Header extends React.Component {
                     name:'脚手架',
                     path:'/scaffold',
                     id:4
+                },
+                {
+                    name:'模版',
+                    path:'/template',
+                    id:4
                 }
             ]
         };
@@ -61,8 +66,9 @@ export default class Header extends React.Component {
                 }
               </ul>
               <ul className="nav-right">
-                <li className="nav-item"> github </li>
-                <li className="nav-item"> 社区 </li>
+                <li className="nav-item"> <a href="https://github.com/dtux-kangaroo" target="_blank">github</a></li>
+                <li className="nav-item"> <a href="https://zhuanlan.zhihu.com/c_109929958" target="_blank">社区</a></li>
+                <li className="nav-item"> <a href='/download' className={location.pathname=='/download'?"checked":""}>下载</a></li>
               </ul>
               
             </div>

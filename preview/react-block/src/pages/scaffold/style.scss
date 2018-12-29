@@ -1,0 +1,18 @@
+.scaffold{
+    padding: 20px;
+    overflow-x: scroll;
+    margin-bottom: 110px;
+    .scaffoldList{
+        border-radius: 10px;
+        .scaffoldName{
+            text-align: center;
+            color: #ffff;
+            font-size: 24px;
+        }
+        .description{
+            font-size: 14px;
+            margin-top:10px;
+            color:#FFFFFF;
+        }
+    }
+}

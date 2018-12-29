@@ -1,3 +1,13 @@
+/*
+ * @Description: 文件
+ * @version: 1.0.0
+ * @Company: 袋鼠云
+ * @Author: Charles
+ * @Date: 2018-12-28 19:08:08
+ * @LastEditors: Charles
+ * @LastEditTime: 2018-12-29 14:35:05
+ */
+
 import React, { Component } from 'react';
 import MainLayout from './mainLayout'
 import SideNav from '../components/sideNav'
@@ -12,8 +22,12 @@ export default class BlockLayout extends Component {
                 path:'',
                 children:[
                   {
-                    name:'关于',
+                    name:'品牌展示',
                     path:'/block'
+                  },
+                  {
+                    name:'关于公司',
+                    path:'/block/about'
                   }
                 ]
             },
@@ -23,7 +37,7 @@ export default class BlockLayout extends Component {
                 children:[
                   {
                     name:'叠加面积图',
-                    path:'/block/aa'
+                    path:'/block/chart-pie'
                   }
                 ]
             }

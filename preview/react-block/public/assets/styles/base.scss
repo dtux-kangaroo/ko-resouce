@@ -52,6 +52,15 @@ body {
         vertical-align: sub;
         pointer-events: none;
       }
+      &:after {
+        position: absolute;
+        top: -10px;
+        color:#fff;
+        left: 80px;
+        content: 'kangaroo';
+        font-size: 14px;
+        font-weight: bold;
+      }
     }
 
     .nav {
@@ -62,14 +71,7 @@ body {
       padding: 0;
       margin: 0;
     }
-    .nav-right {
-      float: right;
-      height: 100%;
-      line-height: 60px;
-      background: transparent;
-      padding: 0;
-      margin: 0;
-    }
+
     .nav-item {
       margin: 0;
       float: left;
@@ -78,7 +80,6 @@ body {
       cursor: pointer;
       &:last-child {
         cursor: default;
-        margin-left: 34px;
       }
 
       .nav-lang {
@@ -113,8 +114,24 @@ body {
         bottom: 0;
         left: 0;
         width: 100%;
-        height: 2px;
+        height: 3px;
         background: #99d2fc;
+      }
+      a.checked{
+        font-weight: 700;
+        opacity: 1;
+      }
+    }
+
+    .nav-right {
+      float: right;
+      height: 100%;
+      line-height: 60px;
+      background: transparent;
+      padding: 0;
+      margin: 0;
+      a{
+        padding: 0 15px;
       }
     }
   }
@@ -128,7 +145,7 @@ body {
     position: fixed;
     bottom: 0px;
     height: 80px;
-    background: linear-gradient(to right, #57464c, #3e5547);
+    background: linear-gradient(to right, #160e11eb, #3e5547);
     color: #a4aebd;
     width: 100%;
 

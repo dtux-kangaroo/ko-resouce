@@ -5,42 +5,49 @@
  * @Author: Charles
  * @Date: 2018-12-26 12:00:39
  * @LastEditors: Charles
- * @LastEditTime: 2018-12-28 19:46:51
+ * @LastEditTime: 2018-12-29 11:50:01
  */
 import React from 'react';
-import docLayout  from 'layout/docLayout';
-import AboutDoc from '../pages/doc/about'
+import docRouter from './docRouter';
+import blockRouter from './blockRouter';
 
 import CompLayout  from 'layout/compLayout';
 import Com from '../pages/com'
 
-import BlockLayout  from 'layout/blockLayout';
-import About from 'block/about/src'
-
 import ScaffoldsLayout  from 'layout/scaffoldsLayout';
 import Scaffold from '../pages/scaffold'
 
+import TemplateLayout  from 'layout/templateLayout';
+import Template from '../pages/template'
 
+import DownloadLayout from 'layout/downloadLayout';
+import Download from '../pages/download'
+
+//const prefix= process.env.NODE_ENV=='production'?'/react-block':''
 const routerConf=[
-    {
-        path: '/',
-        layout: docLayout,
-        component:AboutDoc ,
-    },
     {
         path: '/com',
         layout: CompLayout,
         component:Com
     },
-    {
-        path: '/block',
-        layout: BlockLayout,
-        component: About,
-    },
+
     {
         path: '/scaffold',
         layout: ScaffoldsLayout,
-        component: Scaffold,
+        component: Scaffold
+    },
+    {
+        path: '/template',
+        layout: TemplateLayout,
+        component:Template
+    },
+    {
+        path: '/download',
+        layout: DownloadLayout,
+        component:Download
     }
-]
+];
+Array.prototype.push.apply(routerConf, docRouter);
+Array.prototype.push.apply(routerConf, blockRouter);
+
 export default routerConf;

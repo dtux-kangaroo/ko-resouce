@@ -6,16 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
- <%= htmlWebpackPlugin.options.assets.config %> 
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_908382_h0968wmn9pu.css" />
+    <%= htmlWebpackPlugin.options.assets.config %>
 </head>
 
 <body>
     <div id='root'></div>
     <div class="dll">
-        <%= htmlWebpackPlugin.options.scripts %>
+        <%= htmlWebpackPlugin.options.assets.scripts %>
     </div>
-<div class="dll">
-                  <%= htmlWebpackPlugin.options.assets.scripts %>
-             </div>
 </body>
+
 </html>
