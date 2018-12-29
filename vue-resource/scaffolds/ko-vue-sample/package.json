@@ -14,12 +14,14 @@
     "@babel/polyfill": "^7.2.5",
     "axios": "^0.18.0",
     "echarts": "^4.2.0-rc.1",
+    "element-ui": "^2.4.5",
     "lodash.debounce": "^4.0.8",
     "viser-vue": "^2.2.5",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1",
-    "element-ui": "^2.4.5"
+    "vuex": "^3.0.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0"
+  }
 }

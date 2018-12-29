@@ -1,0 +1,34 @@
+.download-bg {
+  background: url(../../../public/assets/imgs/bg.png);
+  background-size: auto;
+  overflow: hidden;
+  width: 100%;
+  height: 800px;
+
+  .download-content {
+    margin: 120px auto;
+    text-align: center;
+
+    .slogon {
+      font-size: 24px;
+      color: #fff;
+    }
+
+    .icon-download {
+      font-size: 20px;
+      font-weight: 800;
+      color: #fff;
+    }
+    @keyframes scale {
+      from {
+        font-size: 20px;
+      }
+      to {
+        font-size: 36px;
+      }
+    }
+    .icon-download {
+      animation: scale .8s ease-in 0s infinite alternate;
+    }
+  }
+}
