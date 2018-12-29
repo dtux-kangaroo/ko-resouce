@@ -2,7 +2,7 @@
  * @project        dtux
  * @name           dtux
  * @author         dtux
- * @build          Sat, Dec 29, 2018 5:20 PM ET
+ * @build          Sat, Dec 29, 2018 5:52 PM ET
  * @release        v1.2.8
  * @copyright      Copyright (c) 2018 
  *
@@ -87,7 +87,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "/ko-resouce/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
