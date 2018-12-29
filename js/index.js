@@ -2,7 +2,7 @@
  * @project        dtux
  * @name           dtux
  * @author         dtux
- * @build          Sat, Dec 29, 2018 6:04 PM ET
+ * @build          Sat, Dec 29, 2018 6:17 PM ET
  * @release        v1.2.8
  * @copyright      Copyright (c) 2018 
  *
@@ -19670,7 +19670,7 @@ function (_React$Component) {
       }, "\u793E\u533A")), reactfrom_dll_reference_vendor_4_44a98cba3915640c480e_default.a.createElement("li", {
         className: "nav-item"
       }, " ", reactfrom_dll_reference_vendor_4_44a98cba3915640c480e_default.a.createElement("a", {
-        href: "#/download",
+        href: "https://dtux-kangaroo.github.io/ko-resouce/#/template",
         className: location.pathname == '/download' ? "checked" : ""
       }, "\u4E0B\u8F7D")))));
     }
