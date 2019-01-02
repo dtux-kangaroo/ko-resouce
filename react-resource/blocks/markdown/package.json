@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/markdown",
-  "version": "1.5.2",
+  "version": "1.6.0-alpha.58+403be75",
   "description": "适用于 Homepage 的 Banner 简介",
   "author": "",
   "files": [
@@ -35,5 +35,5 @@
     "screenshot": "https://raw.githubusercontent.com/dtux-kangaroo/roo-config/master/block-covers/markdown.png"
   },
   "homepage": "",
-  "gitHead": "b3e8270ba4e9d5a98019da8737c1f9d347a5d69a"
+  "gitHead": "403be75bfe9cc1963a558e01e9af74418371d9f9"
 }

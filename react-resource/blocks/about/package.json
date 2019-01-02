@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/about",
-  "version": "1.5.2",
+  "version": "1.6.0-alpha.58+403be75",
   "description": "适用于产品的简介",
   "homepage": "",
   "author": "dtux",
@@ -32,5 +32,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "gitHead": "403be75bfe9cc1963a558e01e9af74418371d9f9"
 }

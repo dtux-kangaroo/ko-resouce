@@ -6,177 +6,828 @@
 0 silly argv   '$0': 'lerna',
 0 silly argv   bump: 'minor' }
 1 notice cli v3.8.0
-2 verbose rootPath /Users/charlesyang/space/workspace/team/kangaroo-resource
+2 verbose rootPath /Users/charlesyang/space/workspace/team/ko-resource
 3 info versioning independent
 4 info canary enabled
-5 verbose session ef4ad27fd27460f2
+5 verbose session 2545b78ed0f0878b
 6 verbose user-agent lerna/3.8.0/node@v8.11.4+x64 (darwin)
 7 info Verifying npm credentials
 8 verbose Retrieving npm user profile
-9 http fetch GET 200 http://registry.npmjs.org/-/npm/v1/user 541ms
+9 http fetch GET 200 http://registry.npmjs.org/-/npm/v1/user 1419ms
 10 silly npm profile get received {"tfa":false,"name":"charlesyang","email":"yhxyangyi@163.com","email_verified":true,"created":"2018-01-08T07:01:19.594Z","updated":"2018-01-08T07:01:19.590Z","cidr_whitelist":null}
 11 silly npm whoami received {"username":"charlesyang"}
-12 verbose git-describe undefined => "b3e8270"
-13 silly git-describe parsed => {"refCount":"20","sha":"b3e8270","isDirty":false}
+12 verbose git-describe undefined => "403be75"
+13 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
 14 silly hasTags
 15 verbose hasTags false
 16 info Looking for changed packages since initial commit.
-17 verbose updated @kodesign/block-about
-18 verbose updated @kodesign/block-markdown
-19 verbose updated @kodesign/layout-blank
-20 verbose updated @kodesign/pc-react-sample
-21 verbose git-describe "@kodesign/block-about@*" => "b3e8270"
-22 silly git-describe parsed => {"refCount":"20","sha":"b3e8270","isDirty":false}
-23 verbose git-describe "@kodesign/block-markdown@*" => "b3e8270"
-24 silly git-describe parsed => {"refCount":"20","sha":"b3e8270","isDirty":false}
-25 verbose git-describe "@kodesign/layout-blank@*" => "b3e8270"
-26 silly git-describe parsed => {"refCount":"20","sha":"b3e8270","isDirty":false}
-27 verbose git-describe "@kodesign/pc-react-sample@*" => "b3e8270"
-28 silly git-describe parsed => {"refCount":"20","sha":"b3e8270","isDirty":false}
-29 silly batched [ PackageGraphNode {
-29 silly batched     name: '@kodesign/block-about',
-29 silly batched     externalDependencies: Map {},
-29 silly batched     localDependencies: Map {},
-29 silly batched     localDependents: Map {} },
-29 silly batched   PackageGraphNode {
-29 silly batched     name: '@kodesign/block-markdown',
-29 silly batched     externalDependencies:
-29 silly batched      Map {
-29 silly batched        'prop-types' => [Object],
-29 silly batched        'react' => [Object],
-29 silly batched        'react-markdown' => [Object] },
-29 silly batched     localDependencies: Map {},
-29 silly batched     localDependents: Map {} },
-29 silly batched   PackageGraphNode {
-29 silly batched     name: '@kodesign/layout-blank',
-29 silly batched     externalDependencies:
-29 silly batched      Map {
-29 silly batched        '@icedesign/layout' => [Object],
-29 silly batched        'classnames' => [Object],
-29 silly batched        'prop-types' => [Object] },
-29 silly batched     localDependencies: Map {},
-29 silly batched     localDependents: Map {} },
-29 silly batched   PackageGraphNode {
-29 silly batched     name: '@kodesign/pc-react-sample',
-29 silly batched     externalDependencies:
-29 silly batched      Map {
-29 silly batched        'bizcharts' => [Object],
-29 silly batched        'lodash' => [Object],
-29 silly batched        'react' => [Object],
-29 silly batched        'react-dom' => [Object],
-29 silly batched        'react-router-dom' => [Object] },
-29 silly batched     localDependencies: Map {},
-29 silly batched     localDependents: Map {} } ]
-30 info publish Publishing packages to npm...
-31 silly verifyNpmPackageAccess
-32 http fetch GET 200 http://registry.npmjs.org/-/org/charlesyang/package?format=cli 250ms
-33 warn ENOLICENSE Packages @kodesign/block-about, @kodesign/block-markdown, @kodesign/layout-blank, @kodesign/pc-react-sample are missing a license
-34 silly getCurrentSHA
-35 verbose getCurrentSHA b3e8270ba4e9d5a98019da8737c1f9d347a5d69a
-36 silly run-lifecycle No script for "prepare" in "ko-workspace", continuing
-37 silly run-lifecycle No script for "prepublishOnly" in "ko-workspace", continuing
-38 silly run-lifecycle No script for "prepack" in "ko-workspace", continuing
-39 verbose pack-directory react-resource/blocks/about
-40 verbose pack-directory react-resource/blocks/markdown
-41 verbose pack-directory react-resource/layouts/demoLayout
-42 verbose pack-directory react-resource/scaffolds/ko-react-sample
-43 silly run-lifecycle No script for "prepublish" in "@kodesign/block-about", continuing
-44 silly run-lifecycle No script for "prepublish" in "@kodesign/block-markdown", continuing
-45 silly run-lifecycle prepublish @kodesign/layout-blank
-46 info lifecycle @kodesign/layout-blank@1.3.0-alpha.19+b3e8270~prepublish: @kodesign/layout-blank@1.3.0-alpha.19+b3e8270
-47 silly run-lifecycle No script for "prepublish" in "@kodesign/pc-react-sample", continuing
-48 silly run-lifecycle No script for "prepare" in "@kodesign/block-about", continuing
-49 silly run-lifecycle No script for "prepare" in "@kodesign/block-markdown", continuing
-50 silly run-lifecycle No script for "prepare" in "@kodesign/pc-react-sample", continuing
-51 verbose lifecycle @kodesign/layout-blank@1.3.0-alpha.19+b3e8270~prepublish: unsafe-perm in lifecycle true
-52 verbose lifecycle @kodesign/layout-blank@1.3.0-alpha.19+b3e8270~prepublish: PATH: /Users/charlesyang/space/workspace/team/kangaroo-resource/node_modules/npm-lifecycle/node-gyp-bin:/Users/charlesyang/space/workspace/team/kangaroo-resource/react-resource/layouts/demoLayout/node_modules/.bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4@global/bin:/Users/charlesyang/.rvm/rubies/ruby-2.2.4/bin:./Users/charlesyang/.yarn/bin:/Users/charlesyang/.config/yarn/global/node_modules/.bin:/Users/charlesyang/.node/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/usr/local/go/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4@global/bin:/Users/charlesyang/.rvm/rubies/ruby-2.2.4/bin:./Users/charlesyang/.yarn/bin:/Users/charlesyang/.config/yarn/global/node_modules/.bin:/Users/charlesyang/.node/bin:/Users/charlesyang/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin:/Users/charlesyang/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin
-53 verbose lifecycle @kodesign/layout-blank@1.3.0-alpha.19+b3e8270~prepublish: CWD: /Users/charlesyang/space/workspace/team/kangaroo-resource/react-resource/layouts/demoLayout
-54 silly lifecycle @kodesign/layout-blank@1.3.0-alpha.19+b3e8270~prepublish: Args: [ '-c', 'ice block build' ]
-55 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/block-about", continuing
-56 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/pc-react-sample", continuing
-57 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/block-markdown", continuing
-58 silly run-lifecycle No script for "prepack" in "@kodesign/block-about", continuing
-59 silly run-lifecycle No script for "prepack" in "@kodesign/pc-react-sample", continuing
-60 silly run-lifecycle No script for "prepack" in "@kodesign/block-markdown", continuing
-61 silly run-lifecycle No script for "postpack" in "@kodesign/block-markdown", continuing
-62 silly run-lifecycle No script for "postpack" in "@kodesign/block-about", continuing
-63 silly lifecycle @kodesign/layout-blank@1.3.0-alpha.19+b3e8270~prepublish: Returned: code: 0  signal: null
-64 silly run-lifecycle No script for "prepare" in "@kodesign/layout-blank", continuing
-65 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/layout-blank", continuing
-66 silly run-lifecycle No script for "prepack" in "@kodesign/layout-blank", continuing
-67 silly run-lifecycle No script for "postpack" in "@kodesign/layout-blank", continuing
-68 silly run-lifecycle No script for "postpack" in "@kodesign/pc-react-sample", continuing
-69 silly run-lifecycle No script for "postpack" in "ko-workspace", continuing
-70 verbose publish @kodesign/block-about
-71 verbose publish @kodesign/block-markdown
-72 verbose publish @kodesign/layout-blank
-73 verbose publish @kodesign/pc-react-sample
-74 silly run-lifecycle No script for "publish" in "@kodesign/layout-blank", continuing
-75 silly run-lifecycle No script for "postpublish" in "@kodesign/layout-blank", continuing
-76 success published @kodesign/layout-blank 1.3.0-alpha.19+b3e8270
-77 notice
-78 notice 📦  @kodesign/layout-blank@1.3.0-alpha.19+b3e8270
-79 notice === Tarball Contents ===
-80 notice 1.3kB package.json
-80 notice 136B  README.md
-80 notice 55B   src/index.js
-80 notice 376B  src/Layout.jsx
-80 notice 38B   src/Layout.scss
-81 notice === Tarball Details ===
-82 notice name:          @kodesign/layout-blank
-82 notice version:       1.3.0-alpha.19+b3e8270
-82 notice filename:      kodesign-layout-blank-1.3.0-alpha.19+b3e8270.tgz
-82 notice package size:  1.2 kB
-82 notice unpacked size: 1.9 kB
-82 notice shasum:        b14684fcb77fa23f3836029d8b504efea91c2e49
-82 notice integrity:     sha512-sFXKC3QWNEoJq[...]OUZo/GgJc27wg==
-82 notice total files:   5
-83 notice
-84 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2flayout-blank 3358ms
-85 silly run-lifecycle No script for "publish" in "@kodesign/block-about", continuing
-86 silly run-lifecycle No script for "postpublish" in "@kodesign/block-about", continuing
-87 success published @kodesign/block-about 1.1.0-alpha.19+b3e8270
-88 notice
-89 notice 📦  @kodesign/block-about@1.1.0-alpha.19+b3e8270
-90 notice === Tarball Contents ===
-91 notice 291B  package.json
-91 notice 698B  packagewee.json
-91 notice 0     README.md
-91 notice 4.4kB src/about.jsx
-91 notice 52B   src/index.js
-92 notice === Tarball Details ===
-93 notice name:          @kodesign/block-about
-93 notice version:       1.1.0-alpha.19+b3e8270
-93 notice filename:      kodesign-block-about-1.1.0-alpha.19+b3e8270.tgz
-93 notice package size:  2.1 kB
-93 notice unpacked size: 5.4 kB
-93 notice shasum:        eb8a015988902e9aea3cfafd79ed21ad843fc4f2
-93 notice integrity:     sha512-+sH5AKoOEINNS[...]EXQtJrWuAcdIg==
-93 notice total files:   5
-94 notice
-95 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fblock-about 4430ms
-96 silly run-lifecycle No script for "publish" in "@kodesign/block-markdown", continuing
-97 silly run-lifecycle No script for "postpublish" in "@kodesign/block-markdown", continuing
-98 success published @kodesign/block-markdown 1.3.0-alpha.19+b3e8270
-99 notice
-100 notice 📦  @kodesign/block-markdown@1.3.0-alpha.19+b3e8270
-101 notice === Tarball Contents ===
-102 notice 686B  package.json
-102 notice 0     README.md
-102 notice 497B  src/index.js
-102 notice 4.8kB src/test.md
-103 notice === Tarball Details ===
-104 notice name:          @kodesign/block-markdown
-104 notice version:       1.3.0-alpha.19+b3e8270
-104 notice filename:      kodesign-block-markdown-1.3.0-alpha.19+b3e8270.tgz
-104 notice package size:  2.4 kB
-104 notice unpacked size: 6.0 kB
-104 notice shasum:        9c743588d7e6a367bf311ada3dff0de9d510e0ee
-104 notice integrity:     sha512-aSJVXJ1xCnDV8[...]J5hAOzmUq99PQ==
-104 notice total files:   4
-105 notice
-106 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fblock-markdown 4964ms
-107 http fetch PUT 402 http://registry.npmjs.org/@kodesign%2fpc-react-sample 23863ms
-108 error Error: 402 Payment Required - PUT http://registry.npmjs.org/@kodesign%2fpc-react-sample - You must sign up for private packages
-108 error     at res.buffer.catch.then.body (/Users/charlesyang/space/workspace/team/kangaroo-resource/node_modules/npm-registry-fetch/check-response.js:104:15)
-108 error     at <anonymous>
+17 verbose updated @kodesign/ability-introduction-block
+18 verbose updated @kodesign/about
+19 verbose updated @kodesign/area-stack-chart-block
+20 verbose updated @kodesign/article-list-block
+21 verbose updated @kodesign/bar-line-chart-block
+22 verbose updated @kodesign/brand-display-block
+23 verbose updated @kodesign/brand-list-block
+24 verbose updated @kodesign/change-password-form-block
+25 verbose updated @kodesign/chart-pie-block
+26 verbose updated @kodesign/chart-relation-block
+27 verbose updated @kodesign/circle-progress-block
+28 verbose updated @kodesign/footer-links-block
+29 verbose updated @kodesign/markdown
+30 verbose updated @kodesign/signup-form-block
+31 verbose updated @kodesign/tab-dialog-block
+32 verbose updated @kodesign/layout-blank
+33 verbose updated @kodesign/ko-react-redux
+34 verbose updated pc-react-sample
+35 verbose updated @kodesign/ko-vue-sample
+36 verbose git-describe "@kodesign/ability-introduction-block@*" => "403be75"
+37 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+38 verbose git-describe "@kodesign/about@*" => "403be75"
+39 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+40 verbose git-describe "@kodesign/area-stack-chart-block@*" => "403be75"
+41 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+42 verbose git-describe "@kodesign/article-list-block@*" => "403be75"
+43 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+44 verbose git-describe "@kodesign/bar-line-chart-block@*" => "403be75"
+45 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+46 verbose git-describe "@kodesign/brand-display-block@*" => "403be75"
+47 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+48 verbose git-describe "@kodesign/brand-list-block@*" => "403be75"
+49 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+50 verbose git-describe "@kodesign/change-password-form-block@*" => "403be75"
+51 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+52 verbose git-describe "@kodesign/chart-pie-block@*" => "403be75"
+53 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+54 verbose git-describe "@kodesign/chart-relation-block@*" => "403be75"
+55 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+56 verbose git-describe "@kodesign/circle-progress-block@*" => "403be75"
+57 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+58 verbose git-describe "@kodesign/footer-links-block@*" => "403be75"
+59 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+60 verbose git-describe "@kodesign/markdown@*" => "403be75"
+61 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+62 verbose git-describe "@kodesign/signup-form-block@*" => "403be75"
+63 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+64 verbose git-describe "@kodesign/tab-dialog-block@*" => "403be75"
+65 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+66 verbose git-describe "@kodesign/layout-blank@*" => "403be75"
+67 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+68 verbose git-describe "@kodesign/ko-react-redux@*" => "403be75"
+69 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+70 verbose git-describe "pc-react-sample@*" => "403be75"
+71 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+72 verbose git-describe "@kodesign/ko-vue-sample@*" => "403be75"
+73 silly git-describe parsed => {"refCount":"59","sha":"403be75","isDirty":false}
+74 silly batched [ PackageGraphNode {
+74 silly batched     name: '@kodesign/ability-introduction-block',
+74 silly batched     externalDependencies: Map { 'prop-types' => [Object], 'react' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/about',
+74 silly batched     externalDependencies: Map { 'react' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/area-stack-chart-block',
+74 silly batched     externalDependencies:
+74 silly batched      Map {
+74 silly batched        'bizcharts' => [Object],
+74 silly batched        'classnames' => [Object],
+74 silly batched        'prop-types' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/article-list-block',
+74 silly batched     externalDependencies: Map { 'antd' => [Object], 'prop-types' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/bar-line-chart-block',
+74 silly batched     externalDependencies:
+74 silly batched      Map {
+74 silly batched        'echarts' => [Object],
+74 silly batched        'echarts-for-react' => [Object],
+74 silly batched        'prop-types' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/brand-display-block',
+74 silly batched     externalDependencies:
+74 silly batched      Map {
+74 silly batched        'antd' => [Object],
+74 silly batched        'enquire-js' => [Object],
+74 silly batched        'prop-types' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/brand-list-block',
+74 silly batched     externalDependencies: Map { 'antd' => [Object], 'prop-types' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/change-password-form-block',
+74 silly batched     externalDependencies:
+74 silly batched      Map {
+74 silly batched        '@icedesign/form-binder' => [Object],
+74 silly batched        'prop-types' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/chart-pie-block',
+74 silly batched     externalDependencies:
+74 silly batched      Map {
+74 silly batched        '@antv/data-set' => [Object],
+74 silly batched        'bizcharts' => [Object],
+74 silly batched        'prop-types' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/chart-relation-block',
+74 silly batched     externalDependencies:
+74 silly batched      Map {
+74 silly batched        '@antv/data-set' => [Object],
+74 silly batched        'bizcharts' => [Object],
+74 silly batched        'prop-types' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/circle-progress-block',
+74 silly batched     externalDependencies: Map { 'antd' => [Object], 'prop-types' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/footer-links-block',
+74 silly batched     externalDependencies: Map { 'prop-types' => [Object], 'react' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/markdown',
+74 silly batched     externalDependencies:
+74 silly batched      Map {
+74 silly batched        'prop-types' => [Object],
+74 silly batched        'react' => [Object],
+74 silly batched        'react-markdown' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/signup-form-block',
+74 silly batched     externalDependencies: Map { 'antd' => [Object], 'prop-types' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/tab-dialog-block',
+74 silly batched     externalDependencies:
+74 silly batched      Map {
+74 silly batched        'antd' => [Object],
+74 silly batched        'enquire-js' => [Object],
+74 silly batched        'prop-types' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/layout-blank',
+74 silly batched     externalDependencies:
+74 silly batched      Map {
+74 silly batched        '@icedesign/layout' => [Object],
+74 silly batched        'classnames' => [Object],
+74 silly batched        'prop-types' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: '@kodesign/ko-react-redux',
+74 silly batched     externalDependencies:
+74 silly batched      Map {
+74 silly batched        'echarts' => [Object],
+74 silly batched        'echarts-wordcloud' => [Object],
+74 silly batched        '@babel/polyfill' => [Object],
+74 silly batched        'classnames' => [Object],
+74 silly batched        'react-dom' => [Object],
+74 silly batched        'react-json-view' => [Object],
+74 silly batched        'react-loadable' => [Object],
+74 silly batched        'react-redux' => [Object],
+74 silly batched        'react-resize-detector' => [Object],
+74 silly batched        'react-router' => [Object],
+74 silly batched        'react-router-dom' => [Object],
+74 silly batched        'react-router-redux' => [Object],
+74 silly batched        'redux' => [Object],
+74 silly batched        'redux-thunk' => [Object],
+74 silly batched        'video-react' => [Object],
+74 silly batched        'object-assign' => [Object],
+74 silly batched        'prop-types' => [Object],
+74 silly batched        'react' => [Object],
+74 silly batched        'react-codemirror2' => [Object],
+74 silly batched        'react-dnd' => [Object],
+74 silly batched        'react-dnd-html5-backend' => [Object],
+74 silly batched        'react-quill' => [Object],
+74 silly batched        'bizcharts' => [Object],
+74 silly batched        'codemirror' => [Object],
+74 silly batched        'immutability-helper' => [Object],
+74 silly batched        'immutable' => [Object],
+74 silly batched        'lodash' => [Object],
+74 silly batched        'mirror-creator' => [Object],
+74 silly batched        'moment' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} },
+74 silly batched   PackageGraphNode {
+74 silly batched     name: 'pc-react-sample',
+74 silly batched     externalDependencies:
+74 silly batched      Map {
+74 silly batched        '@babel/polyfill' => [Object],
+74 silly batched        'bizcharts' => [Object],
+74 silly batched        'lodash' => [Object],
+74 silly batched        'react' => [Object],
+74 silly batched        'react-dom' => [Object],
+74 silly batched        'react-router-dom' => [Object] },
+74 silly batched     localDependencies: Map {},
+74 silly batched     localDependents: Map {} } ]
+75 info publish Publishing packages to npm...
+76 silly verifyNpmPackageAccess
+77 http fetch GET 200 http://registry.npmjs.org/-/org/charlesyang/package?format=cli 294ms
+78 warn ENOLICENSE Packages @kodesign/ability-introduction-block, @kodesign/about, @kodesign/area-stack-chart-block, @kodesign/article-list-block, @kodesign/bar-line-chart-block, @kodesign/brand-display-block, @kodesign/brand-list-block, @kodesign/change-password-form-block, @kodesign/chart-pie-block, @kodesign/chart-relation-block, @kodesign/circle-progress-block, @kodesign/footer-links-block, @kodesign/markdown, @kodesign/signup-form-block, @kodesign/tab-dialog-block, @kodesign/layout-blank, @kodesign/ko-react-redux, pc-react-sample are missing a license
+79 silly getCurrentSHA
+80 verbose getCurrentSHA 403be75bfe9cc1963a558e01e9af74418371d9f9
+81 silly run-lifecycle No script for "prepare" in "@kodesign/kangaroo", continuing
+82 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/kangaroo", continuing
+83 silly run-lifecycle No script for "prepack" in "@kodesign/kangaroo", continuing
+84 verbose pack-directory react-resource/blocks/ability-introduction
+85 verbose pack-directory react-resource/blocks/about
+86 verbose pack-directory react-resource/blocks/area-stack-chart
+87 verbose pack-directory react-resource/blocks/article-list
+88 verbose pack-directory react-resource/blocks/bar-line-chart
+89 verbose pack-directory react-resource/blocks/brand-display
+90 verbose pack-directory react-resource/blocks/brand-list
+91 verbose pack-directory react-resource/blocks/change-password-form
+92 verbose pack-directory react-resource/blocks/chart-pie
+93 verbose pack-directory react-resource/blocks/chart-relation
+94 silly run-lifecycle No script for "prepublish" in "@kodesign/ability-introduction-block", continuing
+95 silly run-lifecycle No script for "prepublish" in "@kodesign/about", continuing
+96 silly run-lifecycle No script for "prepublish" in "@kodesign/area-stack-chart-block", continuing
+97 silly run-lifecycle No script for "prepublish" in "@kodesign/article-list-block", continuing
+98 silly run-lifecycle No script for "prepublish" in "@kodesign/bar-line-chart-block", continuing
+99 silly run-lifecycle No script for "prepublish" in "@kodesign/brand-display-block", continuing
+100 silly run-lifecycle No script for "prepublish" in "@kodesign/brand-list-block", continuing
+101 silly run-lifecycle No script for "prepublish" in "@kodesign/change-password-form-block", continuing
+102 silly run-lifecycle No script for "prepublish" in "@kodesign/chart-pie-block", continuing
+103 silly run-lifecycle No script for "prepublish" in "@kodesign/chart-relation-block", continuing
+104 silly run-lifecycle No script for "prepare" in "@kodesign/ability-introduction-block", continuing
+105 silly run-lifecycle No script for "prepare" in "@kodesign/about", continuing
+106 silly run-lifecycle No script for "prepare" in "@kodesign/area-stack-chart-block", continuing
+107 silly run-lifecycle No script for "prepare" in "@kodesign/article-list-block", continuing
+108 silly run-lifecycle No script for "prepare" in "@kodesign/bar-line-chart-block", continuing
+109 silly run-lifecycle No script for "prepare" in "@kodesign/brand-display-block", continuing
+110 silly run-lifecycle No script for "prepare" in "@kodesign/brand-list-block", continuing
+111 silly run-lifecycle No script for "prepare" in "@kodesign/change-password-form-block", continuing
+112 silly run-lifecycle No script for "prepare" in "@kodesign/chart-pie-block", continuing
+113 silly run-lifecycle No script for "prepare" in "@kodesign/chart-relation-block", continuing
+114 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/ability-introduction-block", continuing
+115 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/about", continuing
+116 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/article-list-block", continuing
+117 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/area-stack-chart-block", continuing
+118 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/bar-line-chart-block", continuing
+119 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/change-password-form-block", continuing
+120 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/brand-display-block", continuing
+121 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/brand-list-block", continuing
+122 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/chart-pie-block", continuing
+123 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/chart-relation-block", continuing
+124 silly run-lifecycle No script for "prepack" in "@kodesign/ability-introduction-block", continuing
+125 silly run-lifecycle No script for "prepack" in "@kodesign/about", continuing
+126 silly run-lifecycle No script for "prepack" in "@kodesign/article-list-block", continuing
+127 silly run-lifecycle No script for "prepack" in "@kodesign/area-stack-chart-block", continuing
+128 silly run-lifecycle No script for "prepack" in "@kodesign/bar-line-chart-block", continuing
+129 silly run-lifecycle No script for "prepack" in "@kodesign/change-password-form-block", continuing
+130 silly run-lifecycle No script for "prepack" in "@kodesign/brand-display-block", continuing
+131 silly run-lifecycle No script for "prepack" in "@kodesign/brand-list-block", continuing
+132 silly run-lifecycle No script for "prepack" in "@kodesign/chart-pie-block", continuing
+133 silly run-lifecycle No script for "prepack" in "@kodesign/chart-relation-block", continuing
+134 silly run-lifecycle No script for "postpack" in "@kodesign/about", continuing
+135 silly run-lifecycle No script for "postpack" in "@kodesign/article-list-block", continuing
+136 verbose pack-directory react-resource/blocks/circle-progress
+137 silly run-lifecycle No script for "prepublish" in "@kodesign/circle-progress-block", continuing
+138 silly run-lifecycle No script for "prepare" in "@kodesign/circle-progress-block", continuing
+139 verbose pack-directory react-resource/blocks/footer-links
+140 silly run-lifecycle No script for "prepublish" in "@kodesign/footer-links-block", continuing
+141 silly run-lifecycle No script for "prepare" in "@kodesign/footer-links-block", continuing
+142 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/circle-progress-block", continuing
+143 silly run-lifecycle No script for "postpack" in "@kodesign/ability-introduction-block", continuing
+144 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/footer-links-block", continuing
+145 silly run-lifecycle No script for "prepack" in "@kodesign/circle-progress-block", continuing
+146 verbose pack-directory react-resource/blocks/markdown
+147 silly run-lifecycle No script for "prepublish" in "@kodesign/markdown", continuing
+148 silly run-lifecycle No script for "prepare" in "@kodesign/markdown", continuing
+149 silly run-lifecycle No script for "prepack" in "@kodesign/footer-links-block", continuing
+150 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/markdown", continuing
+151 silly run-lifecycle No script for "postpack" in "@kodesign/area-stack-chart-block", continuing
+152 silly run-lifecycle No script for "postpack" in "@kodesign/change-password-form-block", continuing
+153 silly run-lifecycle No script for "prepack" in "@kodesign/markdown", continuing
+154 verbose pack-directory react-resource/blocks/signup-form
+155 silly run-lifecycle No script for "prepublish" in "@kodesign/signup-form-block", continuing
+156 silly run-lifecycle No script for "prepare" in "@kodesign/signup-form-block", continuing
+157 verbose pack-directory react-resource/blocks/tab-dialog
+158 silly run-lifecycle No script for "prepublish" in "@kodesign/tab-dialog-block", continuing
+159 silly run-lifecycle No script for "prepare" in "@kodesign/tab-dialog-block", continuing
+160 silly run-lifecycle No script for "postpack" in "@kodesign/brand-list-block", continuing
+161 silly run-lifecycle No script for "postpack" in "@kodesign/bar-line-chart-block", continuing
+162 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/signup-form-block", continuing
+163 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/tab-dialog-block", continuing
+164 verbose pack-directory react-resource/layouts/demoLayout
+165 silly run-lifecycle prepublish @kodesign/layout-blank
+166 info lifecycle @kodesign/layout-blank@1.6.0-alpha.58+403be75~prepublish: @kodesign/layout-blank@1.6.0-alpha.58+403be75
+167 verbose pack-directory react-resource/scaffolds/ko-react-redux
+168 silly run-lifecycle No script for "prepublish" in "@kodesign/ko-react-redux", continuing
+169 silly run-lifecycle No script for "prepare" in "@kodesign/ko-react-redux", continuing
+170 silly run-lifecycle No script for "prepack" in "@kodesign/signup-form-block", continuing
+171 verbose lifecycle @kodesign/layout-blank@1.6.0-alpha.58+403be75~prepublish: unsafe-perm in lifecycle true
+172 verbose lifecycle @kodesign/layout-blank@1.6.0-alpha.58+403be75~prepublish: PATH: /Users/charlesyang/space/workspace/team/ko-resource/node_modules/npm-lifecycle/node-gyp-bin:/Users/charlesyang/space/workspace/team/ko-resource/react-resource/layouts/demoLayout/node_modules/.bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4@global/bin:/Users/charlesyang/.rvm/rubies/ruby-2.2.4/bin:./Users/charlesyang/.yarn/bin:/Users/charlesyang/.config/yarn/global/node_modules/.bin:/Users/charlesyang/.node/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin:/usr/local/go/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4/bin:/Users/charlesyang/.rvm/gems/ruby-2.2.4@global/bin:/Users/charlesyang/.rvm/rubies/ruby-2.2.4/bin:./Users/charlesyang/.yarn/bin:/Users/charlesyang/.config/yarn/global/node_modules/.bin:/Users/charlesyang/.node/bin:/Users/charlesyang/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin:/Users/charlesyang/.rvm/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin
+173 verbose lifecycle @kodesign/layout-blank@1.6.0-alpha.58+403be75~prepublish: CWD: /Users/charlesyang/space/workspace/team/ko-resource/react-resource/layouts/demoLayout
+174 silly lifecycle @kodesign/layout-blank@1.6.0-alpha.58+403be75~prepublish: Args: [ '-c', 'ice block build' ]
+175 silly run-lifecycle No script for "prepack" in "@kodesign/tab-dialog-block", continuing
+176 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/ko-react-redux", continuing
+177 silly run-lifecycle No script for "prepack" in "@kodesign/ko-react-redux", continuing
+178 silly run-lifecycle No script for "postpack" in "@kodesign/chart-pie-block", continuing
+179 silly run-lifecycle No script for "postpack" in "@kodesign/chart-relation-block", continuing
+180 silly run-lifecycle No script for "postpack" in "@kodesign/markdown", continuing
+181 verbose pack-directory react-resource/scaffolds/ko-react-sample
+182 silly run-lifecycle No script for "prepublish" in "pc-react-sample", continuing
+183 silly run-lifecycle No script for "prepare" in "pc-react-sample", continuing
+184 silly lifecycle @kodesign/layout-blank@1.6.0-alpha.58+403be75~prepublish: Returned: code: 0  signal: null
+185 silly run-lifecycle No script for "prepare" in "@kodesign/layout-blank", continuing
+186 silly run-lifecycle No script for "prepublishOnly" in "pc-react-sample", continuing
+187 silly run-lifecycle No script for "postpack" in "@kodesign/footer-links-block", continuing
+188 silly run-lifecycle No script for "prepublishOnly" in "@kodesign/layout-blank", continuing
+189 silly run-lifecycle No script for "prepack" in "pc-react-sample", continuing
+190 silly run-lifecycle No script for "postpack" in "@kodesign/circle-progress-block", continuing
+191 silly run-lifecycle No script for "postpack" in "@kodesign/signup-form-block", continuing
+192 silly run-lifecycle No script for "prepack" in "@kodesign/layout-blank", continuing
+193 silly run-lifecycle No script for "postpack" in "@kodesign/tab-dialog-block", continuing
+194 silly run-lifecycle No script for "postpack" in "@kodesign/brand-display-block", continuing
+195 silly run-lifecycle No script for "postpack" in "@kodesign/layout-blank", continuing
+196 silly run-lifecycle No script for "postpack" in "pc-react-sample", continuing
+197 silly run-lifecycle No script for "postpack" in "@kodesign/ko-react-redux", continuing
+198 silly run-lifecycle No script for "postpack" in "@kodesign/kangaroo", continuing
+199 verbose publish @kodesign/ability-introduction-block
+200 verbose publish @kodesign/about
+201 verbose publish @kodesign/area-stack-chart-block
+202 verbose publish @kodesign/article-list-block
+203 silly run-lifecycle No script for "publish" in "@kodesign/ability-introduction-block", continuing
+204 silly run-lifecycle No script for "postpublish" in "@kodesign/ability-introduction-block", continuing
+205 success published @kodesign/ability-introduction-block 1.4.0-alpha.58+403be75
+206 notice
+207 notice 📦  @kodesign/ability-introduction-block@1.4.0-alpha.58+403be75
+208 notice === Tarball Contents ===
+209 notice 933B   package.json
+209 notice 152B   README.md
+209 notice 766B   build/index.html
+209 notice 52.1kB build/index.js
+209 notice 3.2kB  src/AbilityIntroduction.jsx
+209 notice 5.9kB  src/images/api_icon.png
+209 notice 5.8kB  src/images/component_icon.png
+209 notice 5.5kB  src/images/framework_icon.png
+209 notice 94B    src/index.js
+210 notice === Tarball Details ===
+211 notice name:          @kodesign/ability-introduction-block
+211 notice version:       1.4.0-alpha.58+403be75
+211 notice filename:      kodesign-ability-introduction-block-1.4.0-alpha.58+403be75.tgz
+211 notice package size:  47.6 kB
+211 notice unpacked size: 74.5 kB
+211 notice shasum:        1baa8cc62afd5ba6b092d7eaeb8ae230b2e627a3
+211 notice integrity:     sha512-wz8mHx6aOHJsK[...]g8yZf9EDiyC+w==
+211 notice total files:   9
+212 notice
+213 verbose publish @kodesign/bar-line-chart-block
+214 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fability-introduction-block 4707ms
+215 silly run-lifecycle No script for "publish" in "@kodesign/about", continuing
+216 silly run-lifecycle No script for "postpublish" in "@kodesign/about", continuing
+217 success published @kodesign/about 1.6.0-alpha.58+403be75
+218 notice
+219 notice 📦  @kodesign/about@1.6.0-alpha.58+403be75
+220 notice === Tarball Contents ===
+221 notice 893B  package.json
+221 notice 0     README.md
+221 notice 4.4kB src/about.jsx
+221 notice 52B   src/index.js
+222 notice === Tarball Details ===
+223 notice name:          @kodesign/about
+223 notice version:       1.6.0-alpha.58+403be75
+223 notice filename:      kodesign-about-1.6.0-alpha.58+403be75.tgz
+223 notice package size:  2.0 kB
+223 notice unpacked size: 5.3 kB
+223 notice shasum:        10d505dd138acd03caa20d388239ebb5da315e0e
+223 notice integrity:     sha512-4d7gANh/fivk6[...]qjhWDlLT4F7qQ==
+223 notice total files:   4
+224 notice
+225 verbose publish @kodesign/brand-display-block
+226 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fabout 5662ms
+227 silly run-lifecycle No script for "publish" in "@kodesign/article-list-block", continuing
+228 silly run-lifecycle No script for "postpublish" in "@kodesign/article-list-block", continuing
+229 success published @kodesign/article-list-block 1.4.0-alpha.58+403be75
+230 notice
+231 notice 📦  @kodesign/article-list-block@1.4.0-alpha.58+403be75
+232 notice === Tarball Contents ===
+233 notice 1.0kB  package.json
+233 notice 123B   README.md
+233 notice 738B   build/index.html
+233 notice 48.4kB build/index.js
+233 notice 4.2kB  src/ArticleList.jsx
+233 notice 70B    src/index.js
+234 notice === Tarball Details ===
+235 notice name:          @kodesign/article-list-block
+235 notice version:       1.4.0-alpha.58+403be75
+235 notice filename:      kodesign-article-list-block-1.4.0-alpha.58+403be75.tgz
+235 notice package size:  16.9 kB
+235 notice unpacked size: 54.5 kB
+235 notice shasum:        83ac9eebe4685649a1c3b6518938bc696cceb6f8
+235 notice integrity:     sha512-zkDpA/Y4QtcQc[...]DBrz78VFEB+RA==
+235 notice total files:   6
+236 notice
+237 verbose publish @kodesign/brand-list-block
+238 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2farticle-list-block 5967ms
+239 silly run-lifecycle No script for "publish" in "@kodesign/area-stack-chart-block", continuing
+240 silly run-lifecycle No script for "postpublish" in "@kodesign/area-stack-chart-block", continuing
+241 success published @kodesign/area-stack-chart-block 1.4.0-alpha.58+403be75
+242 notice
+243 notice 📦  @kodesign/area-stack-chart-block@1.4.0-alpha.58+403be75
+244 notice === Tarball Contents ===
+245 notice 1.1kB   package.json
+245 notice 130B    README.md
+245 notice 738B    build/index.html
+245 notice 635.9kB build/index.js
+245 notice 573B    demo/index.html
+245 notice 426B    demo/index.js
+245 notice 40B     mock/area-stack-chart.json
+245 notice 2.4kB   src/AreaStackChart.jsx
+245 notice 79B     src/index.js
+246 notice === Tarball Details ===
+247 notice name:          @kodesign/area-stack-chart-block
+247 notice version:       1.4.0-alpha.58+403be75
+247 notice filename:      kodesign-area-stack-chart-block-1.4.0-alpha.58+403be75.tgz
+247 notice package size:  173.6 kB
+247 notice unpacked size: 641.4 kB
+247 notice shasum:        5f10d59da2c7117e327c37058cca8c610613ce7f
+247 notice integrity:     sha512-f7VNluWRuS4nB[...]u/cu2jZEN0Qlw==
+247 notice total files:   9
+248 notice
+249 verbose publish @kodesign/change-password-form-block
+250 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2farea-stack-chart-block 7996ms
+251 silly run-lifecycle No script for "publish" in "@kodesign/brand-list-block", continuing
+252 silly run-lifecycle No script for "postpublish" in "@kodesign/brand-list-block", continuing
+253 success published @kodesign/brand-list-block 1.4.0-alpha.58+403be75
+254 notice
+255 notice 📦  @kodesign/brand-list-block@1.4.0-alpha.58+403be75
+256 notice === Tarball Contents ===
+257 notice 960B    package.json
+257 notice 136B    README.md
+257 notice 738B    build/index.html
+257 notice 123.6kB build/index.js
+257 notice 3.3kB   src/BrandList.jsx
+257 notice 2.8kB   src/images/TB10Mjkib1YBuNjSszhXXcUsFXa-208-76.png
+257 notice 2.0kB   src/images/TB147fnikSWBuNjSszdXXbeSpXa-180-68.png
+257 notice 1.9kB   src/images/TB14LkieuSBuNjy1XcXXcYjFXa-226-78.png
+257 notice 2.8kB   src/images/TB19a2XikyWBuNjy0FpXXassXXa-244-68.png
+257 notice 961B    src/images/TB1DPSIibGYBuNjy0FoXXciBFXa-128-60.png
+257 notice 2.7kB   src/images/TB1EkveieuSBuNjSsziXXbq8pXa-240-78.png
+257 notice 1.9kB   src/images/TB1fdJliDtYBeNjy1XdXXXXyVXa-208-78.png
+257 notice 4.3kB   src/images/TB1h9yEigaTBuNjSszfXXXgfpXa-298-70.png
+257 notice 1.8kB   src/images/TB1jFDwiamWBuNjy1XaXXXCbXXa-284-56.png
+257 notice 1.7kB   src/images/TB1LgSMibuWBuNjSszgXXb8jVXa-206-72.png
+257 notice 2.0kB   src/images/TB1m7veieuSBuNjSsziXXbq8pXa-262-62.png
+257 notice 3.3kB   src/images/TB1SpDwiamWBuNjy1XaXXXCbXXa-242-46.png
+257 notice 1.9kB   src/images/TB1y9TNioR1BeNjy0FmXXb0wVXa-254-74.png
+257 notice 3.5kB   src/images/TB1zdJliDtYBeNjy1XdXXXXyVXa-184-76.png
+257 notice 64B     src/index.js
+258 notice === Tarball Details ===
+259 notice name:          @kodesign/brand-list-block
+259 notice version:       1.4.0-alpha.58+403be75
+259 notice filename:      kodesign-brand-list-block-1.4.0-alpha.58+403be75.tgz
+259 notice package size:  91.1 kB
+259 notice unpacked size: 162.4 kB
+259 notice shasum:        15935f3ad31d236bf7f13685bab9fe90ec7f4185
+259 notice integrity:     sha512-tTRzQdhKj4Vmz[...]dZzHX/M9yufNA==
+259 notice total files:   20
+260 notice
+261 verbose publish @kodesign/chart-pie-block
+262 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fbrand-list-block 5155ms
+263 silly run-lifecycle No script for "publish" in "@kodesign/bar-line-chart-block", continuing
+264 silly run-lifecycle No script for "postpublish" in "@kodesign/bar-line-chart-block", continuing
+265 success published @kodesign/bar-line-chart-block 1.4.0-alpha.58+403be75
+266 notice
+267 notice 📦  @kodesign/bar-line-chart-block@1.4.0-alpha.58+403be75
+268 notice === Tarball Contents ===
+269 notice 1.0kB   package.json
+269 notice 123B    README.md
+269 notice 738B    build/index.html
+269 notice 826.2kB build/index.js
+269 notice 3.6kB   src/BarLineChart.jsx
+269 notice 73B     src/index.js
+270 notice === Tarball Details ===
+271 notice name:          @kodesign/bar-line-chart-block
+271 notice version:       1.4.0-alpha.58+403be75
+271 notice filename:      kodesign-bar-line-chart-block-1.4.0-alpha.58+403be75.tgz
+271 notice package size:  272.8 kB
+271 notice unpacked size: 831.7 kB
+271 notice shasum:        f3a586f495fdcb12c3e700dc022db53f63f6979e
+271 notice integrity:     sha512-azb+xnuXs7rX2[...]d6lIMKnOCv1kQ==
+271 notice total files:   6
+272 notice
+273 verbose publish @kodesign/chart-relation-block
+274 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fbar-line-chart-block 7146ms
+275 silly run-lifecycle No script for "publish" in "@kodesign/change-password-form-block", continuing
+276 silly run-lifecycle No script for "postpublish" in "@kodesign/change-password-form-block", continuing
+277 success published @kodesign/change-password-form-block 1.4.0-alpha.58+403be75
+278 notice
+279 notice 📦  @kodesign/change-password-form-block@1.4.0-alpha.58+403be75
+280 notice === Tarball Contents ===
+281 notice 1.0kB   package.json
+281 notice 132B    README.md
+281 notice 738B    build/index.html
+281 notice 999.5kB build/index.js
+281 notice 1.9kB   src/ChangePasswordForm.jsx
+281 notice 270B    src/ChangePasswordForm.scss
+281 notice 91B     src/index.js
+282 notice === Tarball Details ===
+283 notice name:          @kodesign/change-password-form-block
+283 notice version:       1.4.0-alpha.58+403be75
+283 notice filename:      kodesign-change-password-form-block-1.4.0-alpha.58+403be75.tgz
+283 notice package size:  209.8 kB
+283 notice unpacked size: 1.0 MB
+283 notice shasum:        3ee27088fd3f4d013479b1e958ce2b05cf50f6ce
+283 notice integrity:     sha512-1xINFKDrYBx+o[...]0DAQXOYPC4/dA==
+283 notice total files:   7
+284 notice
+285 verbose publish @kodesign/circle-progress-block
+286 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fchange-password-form-block 9289ms
+287 silly run-lifecycle No script for "publish" in "@kodesign/chart-relation-block", continuing
+288 silly run-lifecycle No script for "postpublish" in "@kodesign/chart-relation-block", continuing
+289 success published @kodesign/chart-relation-block 1.4.0-alpha.58+403be75
+290 notice
+291 notice 📦  @kodesign/chart-relation-block@1.4.0-alpha.58+403be75
+292 notice === Tarball Contents ===
+293 notice 995B  package.json
+293 notice 117B  README.md
+293 notice 738B  build/index.html
+293 notice 2.1MB build/index.js
+293 notice 3.3kB src/ChartRelation.jsx
+293 notice 76B   src/index.js
+294 notice === Tarball Details ===
+295 notice name:          @kodesign/chart-relation-block
+295 notice version:       1.4.0-alpha.58+403be75
+295 notice filename:      kodesign-chart-relation-block-1.4.0-alpha.58+403be75.tgz
+295 notice package size:  516.5 kB
+295 notice unpacked size: 2.1 MB
+295 notice shasum:        6470a7b01d9bb9bd2315be260e08f37b7884a153
+295 notice integrity:     sha512-SAbmtZ1iE6rc7[...]Lg6qqgIn+dQOg==
+295 notice total files:   6
+296 notice
+297 verbose publish @kodesign/footer-links-block
+298 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fchart-relation-block 9729ms
+299 silly run-lifecycle No script for "publish" in "@kodesign/circle-progress-block", continuing
+300 silly run-lifecycle No script for "postpublish" in "@kodesign/circle-progress-block", continuing
+301 success published @kodesign/circle-progress-block 1.4.0-alpha.58+403be75
+302 notice
+303 notice 📦  @kodesign/circle-progress-block@1.4.0-alpha.58+403be75
+304 notice === Tarball Contents ===
+305 notice 1.0kB   package.json
+305 notice 124B    README.md
+305 notice 738B    build/index.html
+305 notice 986.3kB build/index.js
+305 notice 532B    demo/index.html
+305 notice 463B    demo/index.js
+305 notice 40B     mock/circle-progress.json
+305 notice 1.7kB   src/CircleProgress.jsx
+305 notice 79B     src/index.js
+306 notice === Tarball Details ===
+307 notice name:          @kodesign/circle-progress-block
+307 notice version:       1.4.0-alpha.58+403be75
+307 notice filename:      kodesign-circle-progress-block-1.4.0-alpha.58+403be75.tgz
+307 notice package size:  206.8 kB
+307 notice unpacked size: 991.0 kB
+307 notice shasum:        a54d599c5fd2af6197a1320531dc394bd5b6cd7e
+307 notice integrity:     sha512-tLiVhWEGSS8NY[...]vOsmypa1I+TvQ==
+307 notice total files:   9
+308 notice
+309 verbose publish @kodesign/markdown
+310 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fcircle-progress-block 9972ms
+311 silly run-lifecycle No script for "publish" in "@kodesign/footer-links-block", continuing
+312 silly run-lifecycle No script for "postpublish" in "@kodesign/footer-links-block", continuing
+313 success published @kodesign/footer-links-block 1.4.0-alpha.58+403be75
+314 notice
+315 notice 📦  @kodesign/footer-links-block@1.4.0-alpha.58+403be75
+316 notice === Tarball Contents ===
+317 notice 928B   package.json
+317 notice 80B    README.md
+317 notice 46.5kB build/images/1d6699905b3d7eef19fa2551c6a26c78.png
+317 notice 738B   build/index.html
+317 notice 17.8kB build/index.js
+317 notice 13.8kB src/FooterLinks.jsx
+317 notice 46.5kB src/images/HNblwDvJYEuHnbIvlhVy.png
+317 notice 70B    src/index.js
+318 notice === Tarball Details ===
+319 notice name:          @kodesign/footer-links-block
+319 notice version:       1.4.0-alpha.58+403be75
+319 notice filename:      kodesign-footer-links-block-1.4.0-alpha.58+403be75.tgz
+319 notice package size:  100.7 kB
+319 notice unpacked size: 126.4 kB
+319 notice shasum:        37186bf04b36d2debf00d462f7778375ef5f8cbe
+319 notice integrity:     sha512-B3lfE1YU5au3c[...]aMKBeizbGHpSw==
+319 notice total files:   8
+320 notice
+321 verbose publish @kodesign/signup-form-block
+322 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2ffooter-links-block 7600ms
+323 silly run-lifecycle No script for "publish" in "@kodesign/chart-pie-block", continuing
+324 silly run-lifecycle No script for "postpublish" in "@kodesign/chart-pie-block", continuing
+325 success published @kodesign/chart-pie-block 1.4.0-alpha.58+403be75
+326 notice
+327 notice 📦  @kodesign/chart-pie-block@1.4.0-alpha.58+403be75
+328 notice === Tarball Contents ===
+329 notice 975B  package.json
+329 notice 115B  README.md
+329 notice 738B  build/index.html
+329 notice 2.1MB build/index.js
+329 notice 2.5kB src/ChartPie.jsx
+329 notice 61B   src/index.js
+330 notice === Tarball Details ===
+331 notice name:          @kodesign/chart-pie-block
+331 notice version:       1.4.0-alpha.58+403be75
+331 notice filename:      kodesign-chart-pie-block-1.4.0-alpha.58+403be75.tgz
+331 notice package size:  516.8 kB
+331 notice unpacked size: 2.1 MB
+331 notice shasum:        0392810b1ee66a572c972748106ed13103b8737c
+331 notice integrity:     sha512-P33kvQPpUGOLG[...]hMbJBBNgNEcIw==
+331 notice total files:   6
+332 notice
+333 verbose publish @kodesign/tab-dialog-block
+334 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fchart-pie-block 18092ms
+335 silly run-lifecycle No script for "publish" in "@kodesign/brand-display-block", continuing
+336 silly run-lifecycle No script for "postpublish" in "@kodesign/brand-display-block", continuing
+337 success published @kodesign/brand-display-block 1.4.0-alpha.58+403be75
+338 notice
+339 notice 📦  @kodesign/brand-display-block@1.4.0-alpha.58+403be75
+340 notice === Tarball Contents ===
+341 notice 1.1kB   package.json
+341 notice 126B    README.md
+341 notice 29.7kB  build/images/01fb9473d2e2343d322e37d19e7afafa.png
+341 notice 115.6kB build/images/51625fd166fd7c077e6a41771537cb30.png
+341 notice 98.6kB  build/images/77bb3e1d30897dfddf516221adbd29ef.png
+341 notice 126.7kB build/images/e07b0e6b993cd1e87a107fae82049185.png
+341 notice 738B    build/index.html
+341 notice 58.7kB  build/index.js
+341 notice 4.6kB   src/BrandDisplay.jsx
+341 notice 126.7kB src/images/TB17bzrSXXXXXbpaFXXXXXXXXXX-616-348.png
+341 notice 3.2kB   src/images/TB19C_9SXXXXXc1XpXXXXXXXXXX-122-122.png
+341 notice 29.7kB  src/images/TB1bHO6SXXXXXaiXFXXXXXXXXXX-308-174.png
+341 notice 115.6kB src/images/TB1IkEjSXXXXXb1XXXXXXXXXXXX-616-348.png
+341 notice 3.2kB   src/images/TB1kX62SXXXXXXJXVXXXXXXXXXX-122-122.png
+341 notice 98.6kB  src/images/TB1n6H_SXXXXXc3XpXXXXXXXXXX-616-348.png
+341 notice 2.7kB   src/images/TB1QMwlSXXXXXaUXXXXXXXXXXXX-122-122.png
+341 notice 2.4kB   src/images/TB1Z4CLSXXXXXcHXVXXXXXXXXXX-61-61.png
+341 notice 73B     src/index.js
+342 notice === Tarball Details ===
+343 notice name:          @kodesign/brand-display-block
+343 notice version:       1.4.0-alpha.58+403be75
+343 notice filename:      kodesign-brand-display-block-1.4.0-alpha.58+403be75.tgz
+343 notice package size:  782.0 kB
+343 notice unpacked size: 817.7 kB
+343 notice shasum:        93ded7ca160ba38da19bac31627b3215f0acbfd3
+343 notice integrity:     sha512-o6tKHJdFoLNai[...]MrLZ3lwjahO5g==
+343 notice total files:   18
+344 notice
+345 verbose publish @kodesign/layout-blank
+346 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fbrand-display-block 24376ms
+347 silly run-lifecycle No script for "publish" in "@kodesign/markdown", continuing
+348 silly run-lifecycle No script for "postpublish" in "@kodesign/markdown", continuing
+349 success published @kodesign/markdown 1.6.0-alpha.58+403be75
+350 notice
+351 notice 📦  @kodesign/markdown@1.6.0-alpha.58+403be75
+352 notice === Tarball Contents ===
+353 notice 924B  package.json
+353 notice 0     README.md
+353 notice 497B  src/index.js
+353 notice 4.8kB src/test.md
+354 notice === Tarball Details ===
+355 notice name:          @kodesign/markdown
+355 notice version:       1.6.0-alpha.58+403be75
+355 notice filename:      kodesign-markdown-1.6.0-alpha.58+403be75.tgz
+355 notice package size:  2.5 kB
+355 notice unpacked size: 6.2 kB
+355 notice shasum:        d8c1e1492f90be5896fca27b6836d54da2fc0bd5
+355 notice integrity:     sha512-e2pCfWngfJgF4[...]0uFg9vlHhSjig==
+355 notice total files:   4
+356 notice
+357 verbose publish @kodesign/ko-react-redux
+358 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fmarkdown 3866ms
+359 silly run-lifecycle No script for "publish" in "@kodesign/signup-form-block", continuing
+360 silly run-lifecycle No script for "postpublish" in "@kodesign/signup-form-block", continuing
+361 success published @kodesign/signup-form-block 1.4.0-alpha.58+403be75
+362 notice
+363 notice 📦  @kodesign/signup-form-block@1.4.0-alpha.58+403be75
+364 notice === Tarball Contents ===
+365 notice 990B    package.json
+365 notice 121B    README.md
+365 notice 738B    build/index.html
+365 notice 164.6kB build/index.js
+365 notice 67B     src/index.js
+365 notice 1.7kB   src/SignupForm.jsx
+365 notice 186B    src/style.scss
+366 notice === Tarball Details ===
+367 notice name:          @kodesign/signup-form-block
+367 notice version:       1.4.0-alpha.58+403be75
+367 notice filename:      kodesign-signup-form-block-1.4.0-alpha.58+403be75.tgz
+367 notice package size:  41.5 kB
+367 notice unpacked size: 168.4 kB
+367 notice shasum:        18b6ebab8d929c6325ed02e0efa2459bd34fb105
+367 notice integrity:     sha512-5nQa6CEO/iEHx[...]NsuT4wA8AUn1Q==
+367 notice total files:   7
+368 notice
+369 verbose publish pc-react-sample
+370 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2fsignup-form-block 4860ms
+371 silly run-lifecycle No script for "publish" in "@kodesign/layout-blank", continuing
+372 silly run-lifecycle No script for "postpublish" in "@kodesign/layout-blank", continuing
+373 success published @kodesign/layout-blank 1.6.0-alpha.58+403be75
+374 notice
+375 notice 📦  @kodesign/layout-blank@1.6.0-alpha.58+403be75
+376 notice === Tarball Contents ===
+377 notice 1.3kB package.json
+377 notice 136B  README.md
+377 notice 55B   src/index.js
+377 notice 376B  src/Layout.jsx
+377 notice 38B   src/Layout.scss
+378 notice === Tarball Details ===
+379 notice name:          @kodesign/layout-blank
+379 notice version:       1.6.0-alpha.58+403be75
+379 notice filename:      kodesign-layout-blank-1.6.0-alpha.58+403be75.tgz
+379 notice package size:  1.2 kB
+379 notice unpacked size: 1.9 kB
+379 notice shasum:        efbd1264b918fc5bf4e2a61a6f969375d01f3c47
+379 notice integrity:     sha512-gieC+kghOjgkp[...]JlVQkzIOKPRvg==
+379 notice total files:   5
+380 notice
+381 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2flayout-blank 4327ms
+382 silly run-lifecycle No script for "publish" in "@kodesign/tab-dialog-block", continuing
+383 silly run-lifecycle No script for "postpublish" in "@kodesign/tab-dialog-block", continuing
+384 success published @kodesign/tab-dialog-block 1.4.0-alpha.58+403be75
+385 notice
+386 notice 📦  @kodesign/tab-dialog-block@1.4.0-alpha.58+403be75
+387 notice === Tarball Contents ===
+388 notice 1.0kB   package.json
+388 notice 147B    README.md
+388 notice 738B    build/index.html
+388 notice 252.4kB build/index.js
+388 notice 64B     src/index.js
+388 notice 3.3kB   src/TabDialog.jsx
+389 notice === Tarball Details ===
+390 notice name:          @kodesign/tab-dialog-block
+390 notice version:       1.4.0-alpha.58+403be75
+390 notice filename:      kodesign-tab-dialog-block-1.4.0-alpha.58+403be75.tgz
+390 notice package size:  55.0 kB
+390 notice unpacked size: 257.6 kB
+390 notice shasum:        4cbc8264ce6a0269600858cc28d8e992e61c709a
+390 notice integrity:     sha512-7h6nFaPOaHTFy[...]r/KXVOGWBIY5Q==
+390 notice total files:   6
+391 notice
+392 http fetch PUT 200 http://registry.npmjs.org/@kodesign%2ftab-dialog-block 6430ms
+393 silly run-lifecycle No script for "publish" in "pc-react-sample", continuing
+394 silly run-lifecycle No script for "postpublish" in "pc-react-sample", continuing
+395 success published pc-react-sample 1.5.0-alpha.58+403be75
+396 notice
+397 notice 📦  pc-react-sample@1.5.0-alpha.58+403be75
+398 notice === Tarball Contents ===
+399 notice 751B    package.json
+399 notice 918B    ko.config.js
+399 notice 515B    readme.md
+399 notice 245.6kB yarn.lock
+399 notice 552B    dist/index.html
+399 notice 134B    dll/bundle.json
+399 notice 28.8kB  dll/vendor_1-manifest.json
+399 notice 6.9kB   dll/vendor_2-manifest.json
+399 notice 0       public/assets/font
+399 notice 0       public/assets/lib
+399 notice 29B     public/assets/style/base.css
+399 notice 413B    public/index.html
+399 notice 250B    src/components/header/index.js
+399 notice 25B     src/components/header/style.scss
+399 notice 645B    src/index.js
+399 notice 753B    src/layout/mainLayout.js
+399 notice 168B    src/pages/button/index.js
+399 notice 1.2kB   src/pages/home/index.js
+399 notice 24B     src/pages/home/style.scss
+399 notice 209B    src/router/index.js
+399 notice 208B    src/router/router.js
+399 notice 134B    test/bundle.json
+399 notice 762.2kB test/vendor_1_1c902f4ae6ff879d5853.js
+399 notice 28.8kB  test/vendor_1-manifest.json
+399 notice 159.1kB test/vendor_2_1c902f4ae6ff879d5853.js
+399 notice 6.9kB   test/vendor_2-manifest.json
+400 notice === Tarball Details ===
+401 notice name:          pc-react-sample
+401 notice version:       1.5.0-alpha.58+403be75
+401 notice filename:      pc-react-sample-1.5.0-alpha.58+403be75.tgz
+401 notice package size:  349.6 kB
+401 notice unpacked size: 1.2 MB
+401 notice shasum:        26a00c6fdd17e3cb8eeb13d67fe03e98228d42b9
+401 notice integrity:     sha512-YQ7f5lb8j0gai[...]Y89EIn+rrkE6A==
+401 notice total files:   26
+402 notice
+403 http fetch PUT 200 http://registry.npmjs.org/pc-react-sample 7609ms
+404 http fetch PUT 402 http://registry.npmjs.org/@kodesign%2fko-react-redux 72070ms
+405 error Error: 402 Payment Required - PUT http://registry.npmjs.org/@kodesign%2fko-react-redux - You must sign up for private packages
+405 error     at res.buffer.catch.then.body (/Users/charlesyang/space/workspace/team/ko-resource/node_modules/npm-registry-fetch/check-response.js:104:15)
+405 error     at <anonymous>

@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/brand-list-block",
-  "version": "1.3.2",
+  "version": "1.4.0-alpha.58+403be75",
   "description": "展示品牌列表",
   "files": [
     "src/",
@@ -36,5 +36,6 @@
     ],
     "themePackage": ""
   },
-  "homepage": ""
+  "homepage": "",
+  "gitHead": "403be75bfe9cc1963a558e01e9af74418371d9f9"
 }
