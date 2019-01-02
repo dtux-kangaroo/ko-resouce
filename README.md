@@ -7,7 +7,7 @@
 ├── projects //项目-示例
 ├── scaffolds //react相关脚手架
 ├── scripts //npm 脚本文件
-└── package.json //node相关环境的配置文件 gitlab
+└── package.json //node相关环境的配置文件
 
 
 ```
