@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/signup-form-block",
-  "version": "1.4.0-alpha.58+403be75",
+  "version": "1.4.0",
   "description": "登录表单",
   "main": "lib/index.js",
   "files": [

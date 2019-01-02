@@ -1,6 +1,6 @@
 {
   "name": "pc-react-sample",
-  "version": "1.5.0-alpha.58+403be75",
+  "version": "1.5.0",
   "description": "this is demo about webpack4",
   "main": "index.js",
   "scripts": {

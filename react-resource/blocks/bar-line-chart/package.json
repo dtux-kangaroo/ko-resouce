@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/bar-line-chart-block",
-  "version": "1.4.0-alpha.58+403be75",
+  "version": "1.4.0",
   "description": "",
   "files": [
     "src/",

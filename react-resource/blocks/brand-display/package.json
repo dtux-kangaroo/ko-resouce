@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/brand-display-block",
-  "version": "1.4.0-alpha.58+403be75",
+  "version": "1.4.0",
   "description": "品牌列表展示",
   "main": "lib/index.js",
   "files": [

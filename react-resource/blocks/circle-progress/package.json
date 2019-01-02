@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/circle-progress-block",
-  "version": "1.4.0-alpha.58+403be75",
+  "version": "1.4.0",
   "description": "环形进度条",
   "files": [
     "src/",
