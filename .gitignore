@@ -4,3 +4,6 @@ scripts
 tools
 lerna.json
 preview
+vue-resource
+ko-config.json
+package.json
