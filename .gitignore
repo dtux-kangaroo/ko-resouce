@@ -2,8 +2,9 @@ dist
 node_modules
 scripts
 tools
-lerna.json
 preview
 vue-resource
 ko-config.json
 package.json
+
+gh-pages
