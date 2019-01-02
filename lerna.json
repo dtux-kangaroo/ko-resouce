@@ -12,7 +12,7 @@
     ],
     "command": {
         "publish": {
-          "ignoreChanges": ["ignored-file", "*.md","*.json"],
+          "ignoreChanges": ["ignored-file", "*.md","**/*.json","**/**/*.json","**/**/**/*.json"],
           "access":"public"
         },
         "bootstrap": {
