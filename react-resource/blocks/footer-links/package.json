@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/footer-links-block",
-  "version": "1.7.0",
+  "version": "1.8.0-alpha.68+785fedd",
   "description": "通用的底部链接区块",
   "author": "dtux",
   "files": [
@@ -35,5 +35,5 @@
     "screenshot": "https://raw.githubusercontent.com/dtux-kangaroo/roo-config/master/block-covers/footer-links.png"
   },
   "homepage": "",
-  "gitHead": "403be75bfe9cc1963a558e01e9af74418371d9f9"
+  "gitHead": "785fedd5332b5b0733862f4c739373780d16e771"
 }

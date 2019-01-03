@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/layout-blank",
-  "version": "1.9.0",
+  "version": "1.10.0-alpha.68+785fedd",
   "description": "完全空白的布局，通常用来做首页、产品介绍或者登陆页面。推荐使用登陆页分类下的区块。",
   "files": [
     "src/",
@@ -49,5 +49,5 @@
     "thumbnail": "https://gw.alicdn.com/tfs/TB1SvQmlsLJ8KJjy0FnXXcFDpXa-976-974.png",
     "screenshot": "https://img.alicdn.com/tfs/TB1T65abVOWBuNjy0FiXXXFxVXa-2840-1596.png"
   },
-  "gitHead": "403be75bfe9cc1963a558e01e9af74418371d9f9"
+  "gitHead": "785fedd5332b5b0733862f4c739373780d16e771"
 }
