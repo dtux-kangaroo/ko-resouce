@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/area-stack-chart-block",
-  "version": "1.8.0-alpha.68+785fedd",
+  "version": "1.8.0",
   "description": "叠加面积图",
   "main": "src/index.js",
   "files": [

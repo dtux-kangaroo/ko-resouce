@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/article-list-block",
-  "version": "1.8.0-alpha.68+785fedd",
+  "version": "1.8.0",
   "description": "文章列表",
   "main": "lib/index.js",
   "files": [

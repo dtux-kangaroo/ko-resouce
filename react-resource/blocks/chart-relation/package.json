@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/chart-relation-block",
-  "version": "1.8.0-alpha.68+785fedd",
+  "version": "1.8.0",
   "description": "关系图",
   "files": [
     "src/",

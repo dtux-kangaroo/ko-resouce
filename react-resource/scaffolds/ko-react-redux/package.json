@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/ko-react-redux",
-  "version": "1.5.0-alpha.68+785fedd",
+  "version": "1.5.0",
   "description": "dtux",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile --config ./build/prod.js",

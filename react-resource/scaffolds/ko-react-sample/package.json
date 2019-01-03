@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/ko-react-sample",
-  "version": "1.8.0-alpha.68+785fedd",
+  "version": "1.8.0",
   "description": "this is demo about webpack4",
   "main": "index.js",
   "scripts": {

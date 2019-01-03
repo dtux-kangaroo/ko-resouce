@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/brand-list-block",
-  "version": "1.8.0-alpha.68+785fedd",
+  "version": "1.8.0",
   "description": "展示品牌列表",
   "files": [
     "src/",

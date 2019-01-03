@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/chart-pie-block",
-  "version": "1.8.0-alpha.68+785fedd",
+  "version": "1.8.0",
   "description": "",
   "files": [
     "src/",
