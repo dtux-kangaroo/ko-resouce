@@ -1,6 +1,6 @@
 {
   "name": "@kodesign/tab-dialog-block",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "标签内容弹窗",
   "files": [
     "src/",
