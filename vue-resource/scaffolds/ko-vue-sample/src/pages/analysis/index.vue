@@ -5,7 +5,7 @@
       <LineChart
        :option="lineOption"
        :config="{'handle':test}"
-       height="300px"></LineChart>
+       height="301px"></LineChart>
   </div>
   </div>
 </template>
