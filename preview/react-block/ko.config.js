@@ -5,7 +5,7 @@ module.exports = (context) => {
   return {
     move:{
         "from":path.resolve(__dirname, 'dist'),
-        "to":path.resolve(__dirname, '../../gh-pages') ///Users/charlesyang/space/workspace/team/kangaroo-resource/gh-page/block"
+        "to":path.resolve(__dirname, '../../dist/react-block') ///Users/charlesyang/space/workspace/team/kangaroo-resource/gh-page/block"
     },
     webpack: {
       entry: {},
