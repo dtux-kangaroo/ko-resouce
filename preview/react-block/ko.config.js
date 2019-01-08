@@ -1,16 +1,17 @@
 
 const path = require('path');
+const isProd= process.env.NODE_ENV !='production';
 module.exports = (context) => {
   const { webpack } = context;
   return {
     move:{
         "from":path.resolve(__dirname, 'dist'),
-        "to":path.resolve(__dirname, '../../dist/react-block') ///Users/charlesyang/space/workspace/team/kangaroo-resource/gh-page/block"
+        "to":path.resolve(__dirname, '../../dist/react-block')
     },
     webpack: {
       entry: {},
       output: {
-        publicPath: "/ko-resouce/"
+        publicPath:isProd?"/ko-resouce/":"/"
       },
       module: {
         rules: [
