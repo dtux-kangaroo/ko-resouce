@@ -6,12 +6,12 @@ module.exports = (context) => {
   return {
     move:{
         "from":path.resolve(__dirname, 'dist'),
-        "to":path.resolve(__dirname, '../../dist/react-block')
+        "to":path.resolve(__dirname, '../../dist/react')
     },
     webpack: {
       entry: {},
       output: {
-        publicPath:isProd?"/ko-resouce/":"/"
+        publicPath:isProd?"/ko-resouce/react/":"/"
       },
       module: {
         rules: [
