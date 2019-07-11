@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import marked from 'marked';
 import prism from 'prismjs';
-const document=require('./about.md')
+import document from './about.md';
 export default class Doc extends Component {
     constructor(props) {
         super(props);
