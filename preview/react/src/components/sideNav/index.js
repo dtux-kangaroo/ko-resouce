@@ -38,7 +38,6 @@ export default class Header extends React.Component {
     }
     render(){
         const {data,location}=this.props;
-        console.log(this.props,'sidedata');
         return (
             <nav className="side-nav">
               <ul>
