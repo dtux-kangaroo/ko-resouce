@@ -1,6 +1,6 @@
 {
   "name": "@kocom/about",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "基于第三方的自定义组件",
   "author": "dtux",
   "main": "index.js",

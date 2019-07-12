@@ -1,6 +1,6 @@
 {
   "name": "@koscaf/ko-react-redux",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "dtux",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile --config ./build/prod.js",
