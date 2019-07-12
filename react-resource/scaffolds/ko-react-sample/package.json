@@ -1,6 +1,6 @@
 {
   "name": "@koscaf/pc-react-sample",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "description": "this is demo about webpack4",
   "main": "index.js",
   "scripts": {
