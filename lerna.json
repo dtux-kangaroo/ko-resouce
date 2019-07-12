@@ -1,21 +1,19 @@
 {
-    "lerna": "3.15.0",
-    "version": "independent",
-    "npmClient": "npm",
-    "useWorkspaces": true,
-    "registry": "http://registry.npmjs.org",
-    "changelog": {
-      "repo": "dtux/ko-resource",
-      "labels": {
-        "tag: new feature": ":rocket: New Feature",
-        "tag: breaking change": ":boom: Breaking Change",
-        "tag: bug fix": ":bug: Bug Fix",
-        "tag: enhancement": ":nail_care: Enhancement",
-        "tag: documentation": ":memo: Documentation",
-        "tag: internal": ":house: Internal",
-        "tag: underlying tools": ":hammer: Underlying Tools"
-      },
-      "cacheDir": ".changelog"
-    }
+  "lerna": "2.6.0",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent",
+  "changelog": {
+    "repo": "dtux/ko-create-app",
+    "labels": {
+      "tag: new feature": ":rocket: New Feature",
+      "tag: breaking change": ":boom: Breaking Change",
+      "tag: bug fix": ":bug: Bug Fix",
+      "tag: enhancement": ":nail_care: Enhancement",
+      "tag: documentation": ":memo: Documentation",
+      "tag: internal": ":house: Internal",
+      "tag: underlying tools": ":hammer: Underlying Tools"
+    },
+    "cacheDir": ".changelog"
+  }
 }
-  
