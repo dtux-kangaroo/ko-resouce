@@ -1,21 +1,11 @@
 {
-    "lerna": "3.8.0",
-    "workspaces": [
-      "tools/*",
-      "react-resource/blocks/*",
-      "react-resource/layouts/*",
-      "react-resource/components/*",
-      "react-resource/samples/*",
-      "react-resource/scaffolds/*",
-      "vue-resource/blocks/*",
-      "vue-resource/layouts/*",
-      "vue-resource/scaffolds/*"
-    ],
+    "lerna": "3.15.0",
     "version": "independent",
     "npmClient": "npm",
+    "useWorkspaces": true,
     "registry": "http://registry.npmjs.org",
     "changelog": {
-      "repo": "dtux/ko-create-app",
+      "repo": "dtux/ko-resource",
       "labels": {
         "tag: new feature": ":rocket: New Feature",
         "tag: breaking change": ":boom: Breaking Change",
