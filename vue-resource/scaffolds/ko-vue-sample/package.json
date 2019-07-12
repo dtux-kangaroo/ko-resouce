@@ -1,9 +1,8 @@
 {
-  "name": "@kodesign/ko-vue-sample",
-  "version": "1.1.5",
+  "name": "@koscaff/ko-vue-sample",
+  "version": "1.1.4",
   "description": "ko",
   "author": "dtux",
-  "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/dev.js",
     "start": "npm run dev",
