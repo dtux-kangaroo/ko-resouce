@@ -1,0 +1,14 @@
+{
+  "vendor_1": {
+    "js": "vendor_1_d498901328ab4e75f212.js"
+  },
+  "vendor_2": {
+    "js": "vendor_2_d498901328ab4e75f212.js"
+  },
+  "vendor_3": {
+    "js": "vendor_3_d498901328ab4e75f212.js"
+  },
+  "vendor_4": {
+    "js": "vendor_4_d498901328ab4e75f212.js"
+  }
+}
