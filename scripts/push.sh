@@ -16,7 +16,7 @@ git fetch
 git checkout -t origin/gh-pages
 rm -fr *
 
-mv -i ../dist/react ../gh-pages/react
+cp -iR ../dist/* ../gh-pages/
 # commit and push to gh-pages
 git add . -A
 git commit -m "$VERSION"
