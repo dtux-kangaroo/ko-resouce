@@ -1,7 +1,9 @@
 {
-  "name": "@kodesign/kangaroo",
-  "version": "1.6.0",
+  "name": "@ko/kangaroo",
+  "version": "1.0.0",
   "description": "resource",
+  "author": "dtux",
+  "license": "ISC",
   "main": "index.js",
   "scripts": {
     "publish": "lerna publish",
@@ -15,18 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/dtux-kangaroo/resource.git"
   },
-  "publishConfig": {
-    "registry": "http://registry.npmjs.com",
-    "access": "public"
-  },
-  "keywords": [
-    "kangaroo",
-    "react",
-    "resource",
-    "vue"
-  ],
-  "author": "dtux",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/dtux-kangaroo/resource/issues"
   },
