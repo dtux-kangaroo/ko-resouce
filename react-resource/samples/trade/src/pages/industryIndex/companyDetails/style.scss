@@ -1,0 +1,40 @@
+.company-details {
+  width: 100%;
+  .header {
+    background: #fff;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    .back-btn {
+      cursor: pointer;
+    }
+  }
+  .base-infor {
+    background: #fff;
+    width: 100%;
+    padding: 0px 20px 15px;
+    display: flex;
+    justify-content: space-between;
+    .infor {
+      width: 85%;
+      .title {
+        font-size: 24px;
+        color: #000;
+        line-height: 40px;
+      }
+      .introduce {
+        margin: 5px 0px 0px;
+        line-height: 26px;
+        padding-bottom: 35px;
+      }
+    }
+  }
+  // .ant-tabs-nav {
+  //   margin-right: 20px;
+  // }
+  // .ant-tabs-nav-wrap {
+  //   background: #fff;
+  //   padding: 0px 20px;
+  // }
+}

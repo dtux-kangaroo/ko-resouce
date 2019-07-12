@@ -1,0 +1,36 @@
+.img-show-modal{
+    width: 100%;
+    position: relative;
+    .left-btn {
+      cursor: pointer;
+      height: 100%;
+      width: 80px;
+      z-index: 100;
+      background: rgba(0,0,0,0);
+      position: absolute;
+      left: -100px;
+      top: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        background: rgba(0,0,0,0.2);
+      }
+    }
+    .right-btn {
+       cursor: pointer;
+      height: 100%;
+      width: 80px;
+      z-index: 100;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(0,0,0,0);
+      position: absolute;
+      right: -100px;
+      top: 0px;
+      &:hover {
+        background: rgba(0,0,0,0.2);
+      }
+    }
+  }

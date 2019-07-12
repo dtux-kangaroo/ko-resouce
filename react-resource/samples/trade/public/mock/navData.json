@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "message": "执行成功~~",
+  "data":{
+    "topNav":[
+      {
+        "id": 1,
+        "parentId": 0,
+        "permissionName": "行业指标",
+        "permissionIcon": "",
+        "permissionUrl": "/industry-index",
+        "children": []
+      },
+      {
+        "id": 2,
+        "parentId": 0,
+        "permissionName": "系统管理",
+        "permissionIcon": "",
+        "permissionUrl": "/system-manage/user-manage",
+        "children": []
+      }
+    ],
+    "sideNav":[
+      {
+        "id": 4,
+        "parentId": 3,
+        "permissionName": "企业管理",
+        "permissionIcon": "global",
+        "permissionUrl": "/industry-index/company-manage",
+        "children": []
+      },
+      {
+        "id": 5,
+        "parentId": 3,
+        "permissionName": "行业管理",
+        "permissionIcon": "form",
+        "permissionUrl": "/industry-index/industry-manage",
+        "children": []
+      }
+    ]
+  }
+}

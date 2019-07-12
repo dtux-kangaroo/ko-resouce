@@ -1,0 +1,48 @@
+.user-manage {
+  .header_reLoad{
+      height: 50px;
+      line-height: 50px;
+      display: flex;
+      justify-content: space-between;
+      padding:  0 20px;
+      background: #ffffff;
+      border-top: 1px solid #eeeeee;
+      border-bottom: 1px solid #eeeeee;
+      color: #333333;
+      .title_text{
+          font-weight: bolder;
+          font-size: 16px;
+      }
+      .reload{
+          color: #0099FF;
+          margin-right: 6px;
+      }
+      .reload_btn{
+          cursor: pointer;
+      }
+  }
+  .content_user{
+    margin: 40px 60px;
+    .content_title{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        .search{
+            width: 280px;
+        }
+    }
+    .table_wrap{
+        background: #ffffff;
+        // .ant-table-pagination.ant-pagination{
+        //     float: none !important;
+        //     text-align: center;
+        // }
+        .operate_btn_wrap{
+            a{
+                margin-right: 6px;
+            }
+        }
+    }
+    
+  }
+}

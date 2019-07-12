@@ -1,0 +1,10 @@
+.main-layout{
+  min-height: 100vh !important;
+  .content{
+    padding:0px;
+    min-height: 680px;
+  }
+  .ant-layout-header {
+    padding:0px;
+  }
+}

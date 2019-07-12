@@ -1,0 +1,22 @@
+.prototype-show {
+  background: #fff;
+  margin: 15px 0px 0px;
+  .top-box {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title {
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.85);
+    }
+  }
+  .ps-content {
+    padding: 0px 20px 15px;
+    
+  }
+  .ant-upload-list {
+    display: none;
+  }
+}

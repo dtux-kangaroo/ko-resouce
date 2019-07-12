@@ -1,0 +1,33 @@
+.business-frame {
+  min-height: 200px;
+  width: 100%;
+  background: #fff;
+  .top-box {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e8e8e8;
+    .title {
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.85);
+    }
+  }
+  .bf-content {
+    padding: 15px 20px;
+    .edit-bottom-btn {
+      display: flex;
+      flex-direction: row-reverse;
+      padding: 15px 0px 0px;
+    }
+    .ql-editor {
+      min-height: 200px;
+    }
+    img {
+      max-width: 100%;
+    }
+    .show_view{
+      border: 0 none !important;
+    } 
+  }
+}

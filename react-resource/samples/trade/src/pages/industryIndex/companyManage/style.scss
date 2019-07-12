@@ -1,0 +1,55 @@
+.company-manage {
+  .top-box {
+    padding: 15px 20px;
+    display: flex;
+    background: #fff;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cm-content {
+    padding: 0px 20px 15px;
+    .industry-filter {
+      padding: 15px 20px;
+      display: flex;
+      background: #fff;
+      margin: 15px 0px;
+      .left-box {
+        line-height: 30px;
+        text-align: right;
+        // width: 10%;
+      }
+      .right-box {
+        width: 85%;
+        display: flex;
+        align-items: center;
+      }
+      .ant-tag-checkable {
+        font-size: 14px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+    }
+    .company-list-box {
+      .top-operate-box {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        height: 30px;
+        margin: -15px -12px 0px 0px;
+      }
+      .company-intro {
+        line-height: 25px;
+        font-size: 13px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .pagination {
+        display: flex;
+        flex-direction: row-reverse;
+        // padding: 0px 0px 15px;
+      }
+    }
+  }
+  
+}

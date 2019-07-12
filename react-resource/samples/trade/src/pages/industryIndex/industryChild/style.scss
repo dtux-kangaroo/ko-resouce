@@ -1,0 +1,28 @@
+.industry-child {
+  .header_wrap{
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding:  0 20px;
+    background: #ffffff;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    color: #333333;
+    .title_text{
+      font-weight: bolder;
+      font-size: 16px;
+      .sub{
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+    .back_wrap{
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+  .content_wrap{
+      margin: 20px 20px;
+  }
+}

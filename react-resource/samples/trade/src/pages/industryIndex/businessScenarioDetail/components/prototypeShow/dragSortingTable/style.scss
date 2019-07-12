@@ -1,0 +1,18 @@
+
+.table_draggable_wrap{
+    background: #fff;
+    margin-top: 20px;
+    tr.drop-over-downward td {
+        border-bottom: 2px dashed #1890ff;
+      }
+      
+    tr.drop-over-upward td {
+        border-top: 2px dashed #1890ff;
+    }
+    .operate_btn_wrap{
+        a{
+            margin-right: 8px;
+            color: #1890ff !important;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.business-scenario {
+  min-height: 200px;
+  width: 100%;
+  .top-box {
+    padding: 0px 20px 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    // border-bottom: 1px solid #e8e8e8;
+  }
+  .content-box {
+    background: #fff;
+    padding: 15px 20px;
+    .panal-header {
+      cursor: pointer;
+      // display: inline-block;
+      width: 100%;
+      .panal-name {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .panal-intro {
+        color: rgba(0, 0, 0, 0.5);
+        padding-left: 24px;
+      }
+    }
+  }
+  .ant-list{
+    position: relative;
+    padding-left: 24px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 22px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .ant-collapse-borderless > .ant-collapse-item{
+    border-bottom: 0 none !important;
+  }
+  .ant-collapse-content-box>.ant-list:last-child{
+    border-bottom: 0 none !important;
+  }
+  .ant-list,.ant-collapse-borderless{
+    border-bottom:1px solid #e9e9e9;
+  }
+  .ant-collapse-content{
+    border-top:1px solid #e9e9e9 !important;
+  }
+  .ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+    top: 22px;
+  }
+}

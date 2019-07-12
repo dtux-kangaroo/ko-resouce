@@ -1,0 +1,16 @@
+.business-scenario-detail {
+  width: 100%;
+  .header {
+    background: #fff;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    .back-btn {
+      cursor: pointer;
+    }
+  }
+  .content-box {
+    padding: 15px 20px;
+  }
+}
