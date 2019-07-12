@@ -1,6 +1,6 @@
 {
   "name": "@kodemo/trade",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "dtux",
   "scripts": {
     "start": "npm run dev",
@@ -9,7 +9,7 @@
     "build": "ko build -t -e",
     "swagger": "ko swagger -t",
     "ct": "git add . && git cz",
-    "move":"ko move",
+    "move": "ko move",
     "tslint": "tslint --project . src/**/*.ts src/**/*.tsx",
     "preview": "ko preview",
     "newPage": "node ./src/scripts/newPage.js",
