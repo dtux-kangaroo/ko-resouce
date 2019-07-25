@@ -1,6 +1,6 @@
 {
   "name": "@dtux/scaffold-ko-react-redux",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "dtux",
   "scripts": {
     "build": "rimraf dist && webpack --bail --progress --profile --config ./build/prod.js",

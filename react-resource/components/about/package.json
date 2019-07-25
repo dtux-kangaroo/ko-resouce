@@ -1,6 +1,6 @@
 {
   "name": "@dtux/component-about",
-  "version": "1.5.13",
+  "version": "1.5.14",
   "description": "基于第三方的自定义组件",
   "author": "dtux",
   "main": "index.js",

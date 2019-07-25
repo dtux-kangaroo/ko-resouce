@@ -1,6 +1,6 @@
 {
   "name": "@dtux/block-circle-progress",
-  "version": "1.3.13",
+  "version": "1.3.14",
   "description": "环形进度条",
   "files": [
     "src/",
