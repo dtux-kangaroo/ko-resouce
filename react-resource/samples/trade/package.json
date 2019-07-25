@@ -1,6 +1,6 @@
 {
   "name": "@dtux/sample-trade",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "dtux",
   "scripts": {
     "start": "npm run dev",
