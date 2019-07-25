@@ -37,5 +37,9 @@
     "vue-resource/layouts/*",
     "vue-resource/scaffolds/*"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
 }

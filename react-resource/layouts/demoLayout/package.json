@@ -7,5 +7,9 @@
     "classnames": "^2.2.5",
     "prop-types": "^15.5.8"
   },
-  "gitHead": "99c7ba13b2458e1022c1ed57a849fe52023aaf81"
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.com"
+  },
+  "gitHead": "546e0980b33ba796d56a0b39b7105c650ac84592"
 }
