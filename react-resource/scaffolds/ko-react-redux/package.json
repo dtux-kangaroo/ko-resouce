@@ -48,5 +48,6 @@
     "copy-webpack-plugin": "^4.6.0",
     "monaco-editor": "^0.14.3",
     "redux-devtools-extension": "^2.13.2"
-  }
+  },
+  "gitHead": "5f31dc4ffbe104005489e4ae76a5c437343cd5a6"
 }
