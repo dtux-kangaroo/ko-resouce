@@ -1,6 +1,6 @@
 {
   "name": "@kodemo/trade",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "dtux",
   "scripts": {
     "start": "npm run dev",
