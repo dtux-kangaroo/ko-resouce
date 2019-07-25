@@ -1,11 +1,11 @@
 {
-  "name": "@ko/kangaroo",
+  "name": "@dtux/kangaroo",
   "version": "2.0.0",
   "description": "resource",
   "author": "dtux",
   "license": "ISC",
   "main": "index.js",
-  
+
   "scripts": {
     "publish": "lerna publish",
     "bootstrap": "lerna bootstrap",

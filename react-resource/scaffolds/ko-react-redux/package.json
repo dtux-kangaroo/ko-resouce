@@ -1,5 +1,5 @@
 {
-  "name": "@koscaf/ko-react-redux",
+  "name": "@dtux/scaffold-ko-react-redux",
   "version": "1.0.11",
   "description": "dtux",
   "scripts": {
@@ -49,5 +49,5 @@
     "monaco-editor": "^0.14.3",
     "redux-devtools-extension": "^2.13.2"
   },
-  "gitHead": "5f31dc4ffbe104005489e4ae76a5c437343cd5a6"
+  "gitHead": "99c7ba13b2458e1022c1ed57a849fe52023aaf81"
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@koscaff/ko-vue-sample",
+  "name": "@dtux/scaffold-ko-vue-sample",
   "version": "1.1.12",
   "description": "ko",
   "author": "dtux",
@@ -23,5 +23,5 @@
   "devDependencies": {
     "copy-webpack-plugin": "^4.6.0"
   },
-  "gitHead": "5f31dc4ffbe104005489e4ae76a5c437343cd5a6"
+  "gitHead": "99c7ba13b2458e1022c1ed57a849fe52023aaf81"
 }

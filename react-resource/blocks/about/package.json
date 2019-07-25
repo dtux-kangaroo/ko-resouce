@@ -1,5 +1,5 @@
 {
-  "name": "@kodesign/about",
+  "name": "@dtux/block-about",
   "version": "1.5.13",
   "description": "适用于产品的简介",
   "homepage": "",
@@ -33,5 +33,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "gitHead": "5f31dc4ffbe104005489e4ae76a5c437343cd5a6"
+  "gitHead": "99c7ba13b2458e1022c1ed57a849fe52023aaf81"
 }

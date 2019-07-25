@@ -1,5 +1,5 @@
 {
-  "name": "@kodesign/chart-pie-block",
+  "name": "@dtux/block-chart-pie",
   "version": "1.3.13",
   "description": "",
   "files": [
@@ -39,5 +39,5 @@
     "registry": "http://registry.npmjs.com"
   },
   "homepage": "",
-  "gitHead": "5f31dc4ffbe104005489e4ae76a5c437343cd5a6"
+  "gitHead": "99c7ba13b2458e1022c1ed57a849fe52023aaf81"
 }

@@ -1,10 +1,11 @@
 {
-  "name": "@kodesign/layout-blank",
+  "name": "@dtux/layout-blank",
   "version": "1.5.13",
   "description": "完全空白的布局，通常用来做首页、产品介绍或者登陆页面。推荐使用登陆页分类下的区块。",
   "dependencies": {
     "@icedesign/layout": "^0.1.1",
     "classnames": "^2.2.5",
     "prop-types": "^15.5.8"
-  }
+  },
+  "gitHead": "99c7ba13b2458e1022c1ed57a849fe52023aaf81"
 }

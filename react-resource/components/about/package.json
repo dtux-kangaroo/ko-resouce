@@ -1,14 +1,10 @@
 {
-  "name": "@kocom/about",
+  "name": "@dtux/component-about",
   "version": "1.5.13",
   "description": "基于第三方的自定义组件",
   "author": "dtux",
   "main": "index.js",
   "license": "ISC",
-  "publishConfig": {
-    "access": "public",
-    "registry": "http://registry.npmjs.com"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/dtux-kangaroo/ko-resouce/tree/master/react-resource/componnents/about"
@@ -28,9 +24,5 @@
       "信息展示"
     ],
     "screenshot": "https://raw.githubusercontent.com/dtux-kangaroo/roo-config/master/block-covers/about.png"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "gitHead": "5f31dc4ffbe104005489e4ae76a5c437343cd5a6"
+  }
 }

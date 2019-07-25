@@ -1,5 +1,5 @@
 {
-  "name": "@kodemo/trade",
+  "name": "@dtux/sample-trade",
   "version": "1.0.11",
   "description": "dtux",
   "scripts": {
@@ -69,5 +69,5 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "gitHead": "5f31dc4ffbe104005489e4ae76a5c437343cd5a6"
+  "gitHead": "99c7ba13b2458e1022c1ed57a849fe52023aaf81"
 }

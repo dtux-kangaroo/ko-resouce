@@ -1,5 +1,5 @@
 {
-  "name": "@koscaf/pc-react-sample",
+  "name": "@dtux/scaffold-pc-react-sample",
   "version": "1.4.12",
   "description": "this is demo about webpack4",
   "main": "index.js",
@@ -31,5 +31,5 @@
   "devDependencies": {
     "ko-script": "^1.0.0"
   },
-  "gitHead": "5f31dc4ffbe104005489e4ae76a5c437343cd5a6"
+  "gitHead": "99c7ba13b2458e1022c1ed57a849fe52023aaf81"
 }

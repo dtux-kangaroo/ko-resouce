@@ -1,5 +1,5 @@
 {
-  "name": "@kodesign/ability-introduction-block",
+  "name": "@dtux/block-ability-introduction",
   "version": "1.3.13",
   "description": "产品能力介绍",
   "author": "dtux",
@@ -33,5 +33,5 @@
     ],
     "screenshot": "https://raw.githubusercontent.com/dtux-kangaroo/roo-config/master/block-covers/ability-introduction.png"
   },
-  "gitHead": "5f31dc4ffbe104005489e4ae76a5c437343cd5a6"
+  "gitHead": "99c7ba13b2458e1022c1ed57a849fe52023aaf81"
 }
