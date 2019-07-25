@@ -1,15 +1,16 @@
 {
   "name": "@ko/kangaroo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "resource",
   "author": "dtux",
   "license": "ISC",
   "main": "index.js",
+  
   "scripts": {
     "publish": "lerna publish",
     "bootstrap": "lerna bootstrap",
+    "update": "lerna updated",
     "clean": "lerna clean",
-    "version": "lerna version",
     "push:gh-pages": "./scripts/push.sh",
     "preview": "pushstate-server ./gh-pages 1234"
   },
@@ -23,9 +24,8 @@
   "homepage": "https://github.com/dtux-kangaroo/resource#readme",
   "devDependencies": {
     "lerna": "^3.15.0",
-    "lerna-changelog": "^0.8.2"
+    "lerna-changelog": "^0.7.0"
   },
-  "private": true,
   "workspaces": [
     "tools/*",
     "react-resource/blocks/*",
